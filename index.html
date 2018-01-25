@@ -6,24 +6,145 @@
 	<link rel="stylesheet" href="skeleton.css">
 	<link rel="stylesheet" href="normalize.css">
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42438569-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-42438569-2');
+	</script>
+
+
 	<!-- favicons -->
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/manifest.json">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
+	<style>
+		header
+		{
+			text-align: center;
+			margin-top: 4em;
+		}
+		#propic
+		{
+			max-width: 40%;
+			border-radius: 20%;
+			box-shadow: 5px 5px 40px 10px lightgray;
+		}
+		.project-pic
+		{
+			width: 30%;
+			position: absolute;
+		}
+		.project-pic > img
+		{
+			width: 100%;
+		}
+		.project-title
+		{
+			margin-bottom: 0;
+		}
+	</style>
 </head>
 <body>
 <div class="container">
-	<div class="row" style="margin-top: 4em">
-		<div class="three columns">
-			<img src="me.jpg" style="max-width: 100%">
+	<header>
+		<img id="propic" src="me.jpg">
+		<div>
+			<h2 style="margin-top: 0.4em"><strong>David Chu</strong></h2>
+			<p>Computer Science, Cornell University 2020</p>
+			<a class="button" href="mailto:dc788@cornell.edu" style="margin-left: 3em">email</a>
+			<a class="button" href="https://github.com/davidchuyaya">github</a>
+			<a class="button button-primary" href="2017.12.21%20Resume.pdf">resume</a>
+			<a class="button" href="https://www.sharelatex.com/read/qgnpjbxgmffz">latex</a>
+			<a class="button" href="2017.12.22%20Transcript.pdf">transcript</a>
 		</div>
-		<div class="nine columns">
-			<h1>David Chu</h1>
-			<h6><a href="2017.12.21%20Resume.pdf">Resume</a> (made with <a href="https://www.sharelatex.com/read/qgnpjbxgmffz">LaTeX</a>) and <a href="2017.12.22%20Transcript.pdf">Transcript</a></h6>
+	</header>
+	<hr>
+
+	<!-- oweek -->
+	<div class="row">
+		<a class="project-pic" href="https://itunes.apple.com/us/app/cu-orientation/id1244530142?mt=8">
+			<img src="https://github.com/cornell-dti/o-week-ios/blob/master/Resources/Icon.png?raw=true">
+		</a>
+		<div class="two-thirds column offset-by-one-third">
+			<h5 class="project-title">Cornell Orientation Week</h5>
+			<h6><em>Product Manager, Front-End Developer</em></h6>
+			<p>Led subteam of 10 within Cornell Design & Tech Initiative, a project team in Cornell. Developed iOS and Android app that displays orientation events to incoming Cornell students. App uses REST API to communicate with the database and local notifications to display upcoming events. An O(n) recursive algorithm was used to ensure no overlap between events when displayed in the scheduler.</p>
+			<a class="button" href="https://github.com/cornell-dti/o-week-ios">iOS</a>
+			<a class="button" href="https://github.com/cornell-dti/o-week-android">Android</a>
 		</div>
 	</div>
+	<hr>
+
+	<!-- visit once -->
+	<div class="row">
+		<a class="project-pic" href="https://chrome.google.com/webstore/detail/once/koibjjcabhgmipfagkmaccgjkcokolbn">
+			<img src="https://github.com/davidchuyaya/VisitOnce/raw/master/Resources/logo.png">
+		</a>
+		<div class="two-thirds column offset-by-one-third">
+			<h5 class="project-title">Visit Once</h5>
+			<p>A chrome extension that limits selected websites to a single visit a day. Syncs across computers that have the same Google account. Runs a background script to keep track of all opened tabs, a content script to block the content of individual tabs, and a popup script to display the extension icon and "block" button.</p>
+			<a class="button" href="https://github.com/davidchuyaya/VisitOnce">Source</a>
+		</div>
+	</div>
+	<hr>
+
+	<!-- 3110 -->
+	<div class="row">
+		<a class="project-pic" href="https://github.com/Dan12/keyboard-music-player">
+			<img src="https://github.com/Dan12/keyboard-music-player/blob/master/screenshot1.png?raw=true">
+		</a>
+		<div class="two-thirds column offset-by-one-third">
+			<h5 class="project-title">Keyboard music player</h5>
+			<p>Created keyboard music player for Linux with Daniel Weber, David Zhang, and Setphen Buttolph as the final assignment for a functional programming course with OCaml. Selected as one of the top three projects in the class.</p>
+		</div>
+	</div>
+	<hr>
+
+	<!-- dti website -->
+	<div class="row">
+		<a class="project-pic" href="http://cornelldti.org/">
+			<img src="https://github.com/cornell-dti/design/blob/master/Official%20Branding%20Assets/Icon/Transparent/Icon.png?raw=true">
+		</a>
+		<div class="two-thirds column offset-by-one-third">
+			<h5 class="project-title">Cornell DTI Website</h5>
+			<h6><em>Webmaster</em></h6>
+			<p>Quickly redesigned website for Cornell Design & Tech Initiative with Bootstrap. Currently undergoing another redesign with React.js with focus on animations and a mobile-first UI.</p>
+			<a class="button" href="https://github.com/cornell-dti/cornell-dti.github.io">Source</a>
+		</div>
+	</div>
+	<hr>
+
+	<!-- earthworm -->
+	<div class="row">
+		<a class="project-pic" href="https://github.com/davidchuyaya/EarthwormServerClient">
+			<img src="http://www.earthwormcentral.org/documentation/GIFS/ew.logo.gif">
+		</a>
+		<div class="two-thirds column offset-by-one-third">
+			<h5 class="project-title">Earthworm Client to Server</h5>
+			<h6><em>Internet of X Research Intern</em></h6>
+			<p>Wrote Python script to communicate between LinkIt IoT device and Earthworm earthquake analysis server. Communicates using custom protocol on top of TCP. Created two solutions, one which uses C modules in the Earthworm API to convert between earthquake data files for maximum efficiency, and one which does the conversion natively in Python for maximum compatibility.</p>
+		</div>
+	</div>
+	<hr>
+
+	<!-- birthday bot -->
+	<div class="row">
+		<a class="project-pic" href="https://github.com/davidchuyaya/Super-Birthday-Bot">
+			<img src="https://pbs.twimg.com/profile_images/885554951857946624/sd7GRyjY.jpg">
+		</a>
+		<div class="two-thirds column offset-by-one-third">
+			<h5 class="project-title">Super Birthday Bot</h5>
+			<p>Created a bot with Selenium in Java (using a Chrome Webdriver) to use the birthday bot in Slack to automatically ask every member of a given team for their birthdays.</p>
+		</div>
+	</div>
+	<hr>
 </div>
 </body>
 </html>
