@@ -26,6 +26,18 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 	<style>
+		#banner
+		{
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 1em;
+			text-align: center;
+			background-color: #33C3F0;
+			color: white;
+			z-index: 5;
+		}
 		header
 		{
 			text-align: center;
@@ -39,6 +51,11 @@
 		{
 			display: inline-block;
 			vertical-align: top;
+			text-align: left;
+		}
+		#bio
+		{
+			margin-left: 1.5em;
 		}
 		#bio > p
 		{
@@ -46,12 +63,16 @@
 		}
 		#propic
 		{
-			max-width: 8em;
+			max-width: 9em;
 			border-radius: 20%;
 		}
 		#name
 		{
-			margin-bottom: 1rem;
+			margin-bottom: 1em;
+		}
+		.row
+		{
+			margin-bottom: 2em;
 		}
 		.row > img, .no-image
 		{
@@ -65,12 +86,14 @@
 		.section-header
 		{
 			color: orangered;
+			font-weight: 700;
 		}
 		
 	</style>
 </head>
 <body>
 <div class="container">
+	<div id="banner">Paper accepted into NSDI '20!</div>
 	<header>
 		<div id="pic-and-bio">
 			<img id="propic" src="me.jpg">
@@ -81,6 +104,7 @@
 				<p>Bachelor of Science, Computer Science, Cornell University (Dec 2019)</p>
 			</div>
 		</div>
+		<hr>
 		<a class="button" href="mailto:davidchuyaya@gmail.com">email</a>
 		<a class="button" href="https://github.com/davidchuyaya">github</a>
 		<a class="button button-primary" href="https://docs.google.com/document/d/1oZ8qqCvXfJUhQ5LPVVmh1qrv9hrbS2k187Py75Q-zuA/edit?usp=sharing">resume</a>
@@ -88,7 +112,7 @@
 	</header>
 	<hr>
 	
-	<h3 class="section-header">RESEARCH</h3>
+	<h5 class="section-header">RESEARCH</h5>
 	
 	<!-- scalog -->
 	<div class="row">
@@ -141,7 +165,7 @@
 	
 	
 	<hr>
-	<h3 class="section-header">PROJECTS</h3>
+	<h5 class="section-header">PROJECTS</h5>
 	
 	<!-- events -->
 	<div class="row">
@@ -244,22 +268,7 @@
 			<a class="button" href="https://github.com/cornell-dti/cornell-dti.github.io">Source</a>
 		</div>
 	</div>
-
-	<!-- earthworm -->
-	<div class="row">
-		
-		<img src="http://www.earthwormcentral.org/documentation/GIFS/ew.logo.gif">
-		<div class="two-thirds column offset-by-one-third">
-			<h5 class="project-title">Earthworm Client to Server</h5>
-			<h6><em>Internet of X Research Intern <br>
-				Summer 2017</em></h6>
-			<p>Wrote Python script to communicate between LinkIt IoT device and Earthworm earthquake analysis server. Communicates using custom
-				protocol on top of TCP. Created two solutions, one which uses C modules in the Earthworm API to convert between earthquake
-				data files for maximum efficiency, and one which does the conversion natively in Python for maximum compatibility.</p>
-			<a class="button" href="https://github.com/davidchuyaya/EarthwormServerClient">Source</a>
-		</div>
-	</div>
-
+	
 	<!-- nshs guide -->
 	<div class="row">
 		<img src="https://github.com/NSHS-App-Design-Team/NSHS-Guide-Android/blob/master/resources/App%20Icon.png?raw=true">
