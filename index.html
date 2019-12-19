@@ -5,6 +5,7 @@
 	<title>David Chu</title>
 	<link rel="stylesheet" href="skeleton.css">
 	<link rel="stylesheet" href="normalize.css">
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42438569-2"></script>
@@ -30,10 +31,27 @@
 			text-align: center;
 			margin-top: 4em;
 		}
+		#pic-and-bio
+		{
+			margin-bottom: 1em;
+		}
+		#pic-and-bio > *
+		{
+			display: inline-block;
+			vertical-align: top;
+		}
+		#bio > p
+		{
+			margin-bottom: 0;
+		}
 		#propic
 		{
-			max-width: 4em;
+			max-width: 8em;
 			border-radius: 20%;
+		}
+		#name
+		{
+			margin-bottom: 1rem;
 		}
 		.row > img, .no-image
 		{
@@ -44,20 +62,33 @@
 		{
 			margin-bottom: 0;
 		}
+		.section-header
+		{
+			color: orangered;
+		}
+		
 	</style>
 </head>
 <body>
 <div class="container">
 	<header>
-		<img id="propic" src="me.jpg">
-		<h2 style="margin-top: 0.4em"><strong>David Chu</strong></h2>
-		<p>Computer Science, Cornell University 2020</p>
-		<a class="button" href="mailto:dc788@cornell.edu">email</a>
+		<div id="pic-and-bio">
+			<img id="propic" src="me.jpg">
+			<div id="bio">
+				<h2 id="name"><strong>David Chu</strong></h2>
+				<p>I love playing badminton, teaching, and listening to classical music, especially Beethoven's piano sonatas. <br>
+					<a href="https://youtu.be/kvjLjtEr0AQ">Here's a video</a> of my senior recital.</p>
+				<p>Bachelor of Science, Computer Science, Cornell University (Dec 2019)</p>
+			</div>
+		</div>
+		<a class="button" href="mailto:davidchuyaya@gmail.com">email</a>
 		<a class="button" href="https://github.com/davidchuyaya">github</a>
 		<a class="button button-primary" href="https://docs.google.com/document/d/1oZ8qqCvXfJUhQ5LPVVmh1qrv9hrbS2k187Py75Q-zuA/edit?usp=sharing">resume</a>
 		<a class="button" href="2019.6.4%20Transcript.pdf">transcript</a>
 	</header>
 	<hr>
+	
+	<h3 class="section-header">RESEARCH</h3>
 	
 	<!-- scalog -->
 	<div class="row">
@@ -72,9 +103,9 @@
 			made more efficient through batching, removing lulls in activity and optimizing load. Implemented in
 			GoLang with Kubernetes in a team of 3. Contributed to the paper, which was <strong>accepted to NSDI'20</strong>.</p>
 			<a class="button" href="https://github.com/scalog/scalog-old">Github</a>
+			<a class="button" href="https://nsdi20fall.usenix.hotcrp.com/paper/40">Paper (release in February)</a>
 		</div>
 	</div>
-	<hr>
 	
 	<!-- derecho -->
 	<div class="row">
@@ -91,7 +122,6 @@
 			<a class="button" href="https://derecho-project.github.io/">Website</a>
 		</div>
 	</div>
-	<hr>
 
 	<!-- research vision -->
 	<div class="row">
@@ -108,67 +138,10 @@
 			<a class="button" href="https://github.com/davidchuyaya/portfolio/blob/master/cv_research.pdf">Paper</a>
 		</div>
 	</div>
-	<hr>
 	
-	<!-- Paxos -->
-	<div class="row">
-		<img src="https://github.com/davidchuyaya/portfolio/blob/master/paxos.png?raw=true">
-		<div class="two-thirds column offset-by-one-third">
-			<h5 class="project-title">Paxos</h5>
-			<h6><em>Distributed Systems <br>
-				Fall 2018</em></h6>
-			<p>Implemented Multi-Paxos to allow consensus on a list of read/write operations across processes. Each server spawns an
-				Acceptor to accept a proposal for a slot, be that a read or write, and a Leader, to propose an operation for a slot. Each
-				Leader spawns Scouts to propose ballots to each Acceptor to gain write access, then Commanders to propose. Implemented in Java,
-				supporting connections over TCP in a team of 3.</p>
-			<a class="button" href="mailto:dc788@cornell.edu">Email for source</a>
-		</div>
-	</div>
-	<hr>
 	
-	<!-- vision -->
-	<div class="row">
-		<img src="https://github.com/davidchuyaya/portfolio/blob/master/cv.png?raw=true">
-		<div class="two-thirds column offset-by-one-third">
-			<h5 class="project-title">Convolutional Neural Network</h5>
-			<h6><em>Computer Vision <br>
-				Fall 2018</em></h6>
-			<p>Trained a CNN (with transfer learning from one trained on ImageNet) with Keras to identify animals for CS 4670 Computer Vision.
-				In the same class, we created a Python program to reconstruct the 3D structure of an object in an image through photometric
-				stereo, learning Numpy along the way.</p>
-			<a class="button" href="mailto:dc788@cornell.edu">Email for source</a>
-		</div>
-	</div>
 	<hr>
-	
-	<!-- compilers -->
-	<div class="row">
-		<img src="https://github.com/davidchuyaya/portfolio/blob/master/compilers.png?raw=true">
-		<div class="two-thirds column offset-by-one-third">
-			<h5 class="project-title">Compiler</h5>
-			<h6><em>Team member <br>
-				Spring 2018</em></h6>
-			<p>Created a compiler in Java in a team of 4 for CS 4121 Compilers with Practicum. Can lex, parse, type check, create MIR, LIR,
-				generate assembly, and optimize object-oriented language. 1 of 3 teams to receive honorable mention for final project.</p>
-			<a class="button" href="mailto:dc788@cornell.edu">Email for source</a>
-		</div>
-	</div>
-	<hr>
-	
-	<!-- os -->
-	<div class="row">
-		<img src="https://github.com/davidchuyaya/portfolio/blob/master/os.png?raw=true">
-		<div class="two-thirds column offset-by-one-third">
-			<h5 class="project-title">Operating System</h5>
-			<h6><em>Team member <br>
-				Fall 2017</em></h6>
-			<p>Created a microkernel in a group of 2 for CS 4411 Operating Systems with Practicum. Kernel capable of multithreading in a multi-level
-				queue, processing interrupts, allowing concurrency through semaphores, UDP, TCP, and reading/writing from virtual pages with
-				inodes as a file-system with a write-back buffer-cache for optimization.</p>
-			<a class="button" href="">Cannot share source (academic integrity)</a>
-		</div>
-	</div>
-	<hr>
+	<h3 class="section-header">PROJECTS</h3>
 	
 	<!-- events -->
 	<div class="row">
@@ -189,7 +162,6 @@
 			<a class="button" href="https://github.com/cornell-dti/events-manager-android">Android</a>
 		</div>
 	</div>
-	<hr>
 	
 	<!-- cu days -->
 	<div class="row">
@@ -208,7 +180,6 @@
 			<a class="button" href="https://github.com/cornell-dti/cu-days-android">Source</a>
 		</div>
 	</div>
-	<hr>
 
 	<!-- oweek -->
 	<div class="row">
@@ -230,7 +201,6 @@
 			<a class="button" href="https://github.com/cornell-dti/o-week-android">Source</a>
 		</div>
 	</div>
-	<hr>
 
 	<!-- visit once -->
 	<div class="row">
@@ -246,7 +216,6 @@
 			<a class="button" href="https://github.com/davidchuyaya/VisitOnce">Source</a>
 		</div>
 	</div>
-	<hr>
 
 	<!-- 3110 -->
 	<div class="row">
@@ -261,22 +230,6 @@
 			<a class="button" href="https://github.com/Dan12/keyboard-music-player">Source</a>
 		</div>
 	</div>
-	<hr>
-
-	<!-- hackathon -->
-	<div class="row">
-		<img src="http://images-cf.localist.com/photos/532845/huge/4c0fa45388bd7b46fa4c8fe13771f9cc171d9208.jpg">
-		<div class="two-thirds column offset-by-one-third">
-			<h5 class="project-title">Persata (Personal Data)</h5>
-			<h6><em>Developer <br>
-				2017</em></h6>
-			<p>Teamed with 5 other students during the 2017 Hospitality Hackathon to create an iOS app that tracks individual consumers' habits and
-				preferences for hotel rooms. Uses Siri's voice recognition API for hands-free data input; uses Microsoft Azure's object recognition
-				API to keep track of items in each hotel room.</p>
-			<a class="button" href="https://github.com/davidchuyaya/HotelHackathonPersata">Source</a>
-		</div>
-	</div>
-	<hr>
 
 	<!-- dti website -->
 	<div class="row">
@@ -291,7 +244,6 @@
 			<a class="button" href="https://github.com/cornell-dti/cornell-dti.github.io">Source</a>
 		</div>
 	</div>
-	<hr>
 
 	<!-- earthworm -->
 	<div class="row">
@@ -307,7 +259,6 @@
 			<a class="button" href="https://github.com/davidchuyaya/EarthwormServerClient">Source</a>
 		</div>
 	</div>
-	<hr>
 
 	<!-- nshs guide -->
 	<div class="row">
@@ -320,7 +271,6 @@
 				daily schedule such that if a teacher is absent, the student is alerted that he/she can skip that class (legally, obviously).
 				Founded <em>App Design Team</em>, a club that teaches kids computer science outside of class twice a week. Prepared talks based
 				on <em>Clean Code</em> and <em>Efficient Java</em>, as well as algorithms such as Dijkstra's and A* algorithm.</p>
-			<a class="button" href="http://nshsguide.newton.k12.ma.us/">Website</a>
 			<a class="button" href="https://github.com/NSHS-App-Design-Team/NSHS-Guide-Website">Source</a>
 			<a class="button" href="http://itunes.apple.com/us/app/nshs-guide/id998228606?ls=1&mt=8">iOS</a>
 			<a class="button" href="https://github.com/NSHS-App-Design-Team/NSHS-Guide-iOS">Source</a>
