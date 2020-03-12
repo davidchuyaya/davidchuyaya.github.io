@@ -11,8 +11,6 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 
 <br>
 <br>
-<br>
-<br>
 
 ## Publications
 <a href="https://www.usenix.org/conference/nsdi20/presentation/ding">Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log</a>  
@@ -23,8 +21,6 @@ In *17th USENIX Symposium on Networked Systems Design and Implementation (NSDI 2
 Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman  
 In *50th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2020)*
 
-<br>
-<br>
 <br>
 <br>
 
