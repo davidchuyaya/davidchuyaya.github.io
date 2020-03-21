@@ -1,7 +1,7 @@
 <img src="me.jpg" width="150px" height="150px" /> 
 
 # David Chu 
-*EECS PhD, UC Berkeley, starting Fall 2020*
+*EECS PhD, UC Berkeley (starting Fall 2020)*  
 *Computer Science B.S., Cornell University (Dec 2019)*
 
 I'm just starting out my PhD and am interested in **distributed systems research**.  
