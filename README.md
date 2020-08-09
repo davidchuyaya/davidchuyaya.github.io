@@ -47,6 +47,12 @@ Here are some projects I've worked on as part of the team.
 <br>
 
 ### Personal projects
+> #### And My Code Is Ended
+> <img src="https://raw.githubusercontent.com/davidchuyaya/and-my-code-is-ended-android/master/icon.png" width="100px" />
+> 
+> [```Android```](https://play.google.com/store/apps/details?id=com.davidchu.andmycodeisended) [```Source```](https://github.com/davidchuyaya/and-my-code-is-ended-android) [```Backend```](https://github.com/davidchuyaya/and-my-code-is-ended-backend)  
+> An app to wake the user up with a line of code. If you're tired of constantly checking when your code is finished, add that line of code to your script, go to sleep, and be woken up by the app!
+
 > #### Visit Once
 > <img src="https://github.com/davidchuyaya/VisitOnce/raw/master/Resources/logo.png" width="100px" />
 >
