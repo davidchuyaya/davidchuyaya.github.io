@@ -18,7 +18,8 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 Cong Ding, David Chu, Evan Zhao, Xiang Li, Lorenzo Alvisi, & Robbert Van Renesse  
 In *17th USENIX Symposium on Networked Systems Design and Implementation (NSDI 20)* (pp. 325–338)
 
-<a href="#">Reliable, Efficient Recovery for Complex Services with Replicated Subsystems</a> (release before July)  
+<a href="https://ieeexplore.ieee.org/document/9153445">Reliable, Efficient Recovery for Complex Services with Replicated Subsystems</a>  
+[```Free link```](https://research.cs.cornell.edu/projects/Quicksilver/public_pdfs/complex-restart.pdf)  
 Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman  
 In *50th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2020)*
 
