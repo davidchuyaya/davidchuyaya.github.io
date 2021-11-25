@@ -8,7 +8,7 @@ I'm currently pursuing a PhD in **distributed systems** and am co-advised by Pro
 In my spare time, I love playing badminton, teaching, and listening to classical music.  
 <a href="https://youtu.be/kvjLjtEr0AQ">Here's a video</a> of my senior recital, where I performed Brahms Ballades Op. 10, Thomas Ades' Darknesse Visible, and Beethoven's Appassionata Op. 57, one of my favorite sonatas.
 
-[```Email```](mailto:thedavidchu@berkeley.edu) [```Github```](https://github.com/davidchuyaya) [```Resume```](https://docs.google.com/document/d/1oZ8qqCvXfJUhQ5LPVVmh1qrv9hrbS2k187Py75Q-zuA/edit?usp=sharing) [```Transcript```](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/davidchuyaya/portfolio/master/2020.1.30%20Transcript.pdf)
+[```Email```](mailto:thedavidchu@berkeley.edu) [```Github```](https://github.com/davidchuyaya) [```Resume```](https://docs.google.com/document/d/1oZ8qqCvXfJUhQ5LPVVmh1qrv9hrbS2k187Py75Q-zuA/edit?usp=sharing)
 
 <br>
 <br>
