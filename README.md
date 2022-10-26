@@ -4,9 +4,8 @@
 *EECS PhD, UC Berkeley (since Fall 2020)*  
 *Computer Science B.S., Cornell University (Dec 2019)*
 
-I'm currently pursuing a PhD in **distributed systems** and am co-advised by Professors [Joe Hellerstein](https://dsf.berkeley.edu/jmh/index.html) and [Natacha Crooks](https://nacrooks.github.io/). 
-I'm a part of the [Hydro project](https://hydro.run/).
-In my spare time, I love playing badminton, teaching, and listening to classical music.  
+I'm currently pursuing a PhD in **distributed systems** and am co-advised by Professors [Joe Hellerstein](https://dsf.berkeley.edu/jmh/index.html) and [Natacha Crooks](https://nacrooks.github.io/). I'm a part of the [Hydro project](https://hydro.run/).  
+In my spare time, I love playing badminton, teaching, and listening to classical music. 
 <a href="https://youtu.be/kvjLjtEr0AQ">Here's a video</a> of my senior recital, where I performed Brahms Ballades Op. 10, Thomas Ades' Darknesse Visible, and Beethoven's Appassionata Op. 57, one of my favorite sonatas.
 
 [```Email```](mailto:thedavidchu@berkeley.edu) [```Github```](https://github.com/davidchuyaya) [```Resume```](https://docs.google.com/document/d/1oZ8qqCvXfJUhQ5LPVVmh1qrv9hrbS2k187Py75Q-zuA/edit?usp=sharing)
@@ -16,7 +15,7 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 
 ## Publications
 **Automatic Compartmentalization of Distributed Protocols** (ongoing)  
-[```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```5 min presentation```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing)
+[```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```Talk```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing)  
 David Chu, Kaushik Shivakumar, Rithvik Panchapakesan, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
 ACM SOSP 21 Student Research Competition (Winner)  
 
