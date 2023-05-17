@@ -15,7 +15,7 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 
 ## Publications
 **Automatic Compartmentalization of Distributed Protocols** (ongoing)  
-[```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```Talk```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing)  
+[```Technical Report```](https://github.com/rithvikp/autocomp/blob/master/benchmarks/vldb24/Automatic_Compartmentalization_tr.pdf) [```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```Talk```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing)  
 David Chu, Kaushik Shivakumar, Rithvik Panchapakesan, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
 ACM SOSP 21 Student Research Competition (Winner)  
 
