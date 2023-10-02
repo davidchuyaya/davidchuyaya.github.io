@@ -16,8 +16,12 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 ## Publications
 **Automatic Compartmentalization of Distributed Protocols** (ongoing)  
 [```Technical Report```](https://github.com/rithvikp/autocomp/blob/master/benchmarks/vldb24/Automatic_Compartmentalization_tr.pdf) [```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```Talk```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing)  
-David Chu, Kaushik Shivakumar, Rithvik Panchapakesan, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
+David Chu, Rithvik Panchapakesan, Shadaj Laddad, Lucky Katahanas, Chris Liu, Kaushik Shivakumar, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
 ACM SOSP 21 Student Research Competition (Winner)  
+
+<a href="https://www.usenix.org/system/files/osdi23-cheng.pdf">Take Out the TraChe: Maximizing (Tra)nsactional Ca(che) Hit Rate</a>  
+Audrey Cheng, David Chu, Terrance Li, Jason Chan, Natacha Crooks, Joseph M. Hellerstein, Ion Stoica, & Xiangyao Yu  
+In *17th USENIX Symposium on Operating Systems Design and Implementation (OSDI 23)*
 
 <a href="https://www.usenix.org/conference/nsdi20/presentation/ding">Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log</a>  
 Cong Ding, David Chu, Evan Zhao, Xiang Li, Lorenzo Alvisi, & Robbert Van Renesse  
@@ -27,6 +31,10 @@ In *17th USENIX Symposium on Networked Systems Design and Implementation (NSDI 2
 [```Free link```](https://research.cs.cornell.edu/projects/Quicksilver/public_pdfs/complex-restart.pdf)  
 Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman  
 In *50th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2020)*
+
+## Research activity
+- 9/28/23 I will be presenting *Rollbaccine: Herd Immunity Against Rollbacks for TEEs* at the poster session at SOSP 2023!
+- 9/20/23 My first first-author paper (*Optimizing Distributed Protocols with Query Rewrites*) was accepted into SIGMOD 2024 with minor revisions!
 
 <br>
 <br>
@@ -69,4 +77,10 @@ Here are some projects I've worked on as part of the team.
 > <img src="https://github.com/NSHS-App-Design-Team/NSHS-Guide-Android/blob/master/resources/App%20Icon.png?raw=true" width="100px" />
 >
 > [```Frontend & Backend```](https://github.com/NSHS-App-Design-Team/NSHS-Guide-Website) [```iOS```](http://itunes.apple.com/us/app/nshs-guide/id998228606?ls=1&mt=8) [```Source```](https://github.com/NSHS-App-Design-Team/NSHS-Guide-iOS) [```Android```](https://play.google.com/store/apps/details?id=com.nshsappdesignteam.nshsguide) [```Source```](https://github.com/NSHS-App-Design-Team/NSHS-Guide-Android)  
-> An iOS, Android app + website for students at Newton South High School to check which classes they can skip for that day. It's integrated into each students' daily schedule so they are each alerted which of their teachers are absent. The app read emails sent by the principal's secretary, parsed it with PHP, stored the data in MySQL, and beamed messages to users detailing their updated schedule. I was the sole Android and iOS developer on the app, working with [Eric Lin](https://github.com/EricSihaoLin), the backend developer. I also rewrote the backend in PHP and frontend in Polymer.js, pushed by Google as an Angular alternative at the time. 
+> An iOS, Android app + website for students at Newton South High School to check which classes they can skip for that day. It's integrated into each students' daily schedule so they are each alerted which of their teachers are absent. The app read emails sent by the principal's secretary, parsed it with PHP, stored the data in MySQL, and beamed messages to users detailing their updated schedule. I was the sole Android and iOS developer on the app, working with [Eric Lin](https://github.com/EricSihaoLin), the backend developer. I also rewrote the backend in PHP and frontend in Polymer.js, pushed by Google as an Angular alternative at the time.
+>
+> #### Froggy Math
+> <img src="https://github.com/davidchuyaya/Froggy-Math/blob/main/appicon.jpeg?raw=true" width="100px" />
+>
+> [```iOS source```](https://github.com/davidchuyaya/Froggy-Math/tree/main)  
+> An iOS app to help my girlfriend get better at multiplication.
