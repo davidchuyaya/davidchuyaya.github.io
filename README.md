@@ -17,7 +17,7 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 **Automatic Compartmentalization of Distributed Protocols** (ongoing)  
 [```Technical Report```](https://github.com/rithvikp/autocomp/blob/master/benchmarks/vldb24/Automatic_Compartmentalization_tr.pdf) [```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```Talk```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing)  
 David Chu, Rithvik Panchapakesan, Shadaj Laddad, Lucky Katahanas, Chris Liu, Kaushik Shivakumar, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
-ACM SOSP 21 Student Research Competition (Winner)  
+ACM SOSP 21 Student Research Competition (Winner) 
 
 <a href="https://www.usenix.org/system/files/osdi23-cheng.pdf">Take Out the TraChe: Maximizing (Tra)nsactional Ca(che) Hit Rate</a>  
 Audrey Cheng, David Chu, Terrance Li, Jason Chan, Natacha Crooks, Joseph M. Hellerstein, Ion Stoica, & Xiangyao Yu  
@@ -33,7 +33,7 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 In *50th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2020)*
 
 ## Research activity
-- 9/28/23 I will be presenting *Rollbaccine: Herd Immunity Against Rollbacks for TEEs* at the poster session at SOSP 2023!
+- 9/28/23 I will be presenting [Rollbaccine: Herd Immunity Against Rollbacks for TEEs](https://docs.google.com/presentation/d/11BPj-w6UJu3JCIqu4uKLambG6yWf4I3yruRDKk5K1CU/edit?usp=drive_link) at the poster session at SOSP 2023!
 - 9/20/23 My first first-author paper (*Optimizing Distributed Protocols with Query Rewrites*) was accepted into SIGMOD 2024 with minor revisions!
 
 <br>
