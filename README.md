@@ -14,26 +14,32 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 <br>
 
 ## Publications
-**Automatic Compartmentalization of Distributed Protocols** (ongoing)  
-[```Technical Report```](https://github.com/rithvikp/autocomp/blob/master/benchmarks/vldb24/Automatic_Compartmentalization_tr.pdf) [```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```Talk```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing)  
+**Rollbaccine: Herd Immunity Against Rollbacks for TEEs**  
+[```Poster```](https://docs.google.com/presentation/d/11BPj-w6UJu3JCIqu4uKLambG6yWf4I3yruRDKk5K1CU/edit?usp=sharing) [```15min Talk```](https://www.youtube.com/watch?v=RXqR5Rjn1co)  
+David Chu, Soujanya Ponnapalli, Chris Liu, Eddy Ashton, Amaury Chamayou, Natacha Crooks, Heidi Howard  
+Presented at ACM SOSP 2023 Poster Session  
+
+**Optimizing Distributed Protocols with Query Rewrites**  
+ [```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```5min Talk```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing) [```Github```](https://github.com/rithvikp/autocomp) [```Technical Report```](https://github.com/rithvikp/autocomp/blob/master/benchmarks/vldb24/Automatic_Compartmentalization_tr.pdf)  
 David Chu, Rithvik Panchapakesan, Shadaj Laddad, Lucky Katahanas, Chris Liu, Kaushik Shivakumar, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
-ACM SOSP 21 Student Research Competition (Winner) 
+ACM SOSP 2021 Student Research Competition (Winner)  
+*SIGMOD 2024*  
 
 <a href="https://www.usenix.org/system/files/osdi23-cheng.pdf">Take Out the TraChe: Maximizing (Tra)nsactional Ca(che) Hit Rate</a>  
 Audrey Cheng, David Chu, Terrance Li, Jason Chan, Natacha Crooks, Joseph M. Hellerstein, Ion Stoica, & Xiangyao Yu  
-In *17th USENIX Symposium on Operating Systems Design and Implementation (OSDI 23)*
+*OSDI 2023*
 
 <a href="https://www.usenix.org/conference/nsdi20/presentation/ding">Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log</a>  
 Cong Ding, David Chu, Evan Zhao, Xiang Li, Lorenzo Alvisi, & Robbert Van Renesse  
-In *17th USENIX Symposium on Networked Systems Design and Implementation (NSDI 20)* (pp. 325–338)
+*NSDI 2020*
 
 <a href="https://ieeexplore.ieee.org/document/9153445">Reliable, Efficient Recovery for Complex Services with Replicated Subsystems</a>  
 [```Free link```](https://research.cs.cornell.edu/projects/Quicksilver/public_pdfs/complex-restart.pdf)  
 Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman  
-In *50th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2020)*
+*DSN 2020*
 
 ## Research activity
-- 9/28/23 I will be presenting [Rollbaccine: Herd Immunity Against Rollbacks for TEEs](https://docs.google.com/presentation/d/11BPj-w6UJu3JCIqu4uKLambG6yWf4I3yruRDKk5K1CU/edit?usp=drive_link) at the poster session at SOSP 2023!
+- 9/28/23 I will be presenting (*Rollbaccine: Herd Immunity Against Rollbacks for TEEs*) at the poster session at SOSP 2023!
 - 9/20/23 My first first-author paper (*Optimizing Distributed Protocols with Query Rewrites*) was accepted into SIGMOD 2024 with minor revisions!
 
 <br>
