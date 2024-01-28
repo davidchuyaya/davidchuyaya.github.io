@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://unpkg.com/wavesurfer.js@7"></script>
+    <script type="text/javascript">
+        let wavesurfer;
+
+        function onGoListener() {
+            let customWord = document.getElementById("textToSay").value;
+            if (customWord == "") {
+                document.getElementById("itsTimeToDuel").play();
+                return;
+            }
+
+            const link = `https://api.dictionaryapi.dev/api/v2/entries/en/${customWord}`;
+            fetch(link)
+                .then(response => response.json())
+                .then(data => {
+                    const possiblePhonetics = data[0].phonetics;
+                    const audioLink = possiblePhonetics.filter(phonetic => phonetic.audio !== "")[0].audio;
+                    return audioLink;
+                })
+                .then(audioLink => {
+                    wavesurfer = WaveSurfer.create({
+                        container: '#waveform',
+                        waveColor: '#4F4A85',
+                        progressColor: '#383351',
+                        url: audioLink,
+                    });
+                })
+        }
+
+        
+    </script>
+
+    <title>It's time to [insert your thing]</title>
+</head>
+
+<body>
+    <p>It's time to </p>
+    <input type="text" id="textToSay" placeholder="duel">
+    <p>!</p>
+    <button onclick="onGoListener()">Go</button>
+    <div id="waveform"></div>
+
+    <audio id="itsTimeToDuel">
+        <source src="its-time-to-duel.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="startSound">
+        <source src="startSound.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="endSound">
+        <source src="endSound.mp3" type="audio/mpeg">
+    </audio>
+</body>
+
+</html>
