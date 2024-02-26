@@ -2,11 +2,44 @@
 <html>
 
 <head>
-    <script src="https://unpkg.com/wavesurfer.js@7"></script>
-    <script type="text/javascript">
-        let wavesurfer;
+    <!-- <script src="https://unpkg.com/wavesurfer.js@7"></script> -->
+    <!-- <script src="https://unpkg.com/crunker@latest/dist/crunker.esm.js" type="module"></script> -->
+    <script type="module">
+        // let wavesurfer;
+        import Crunker from "https://unpkg.com/crunker@latest/dist/crunker.esm.js";
 
-        function onGoListener() {
+        function extractNonSilentRegions(audioBuffer) {
+            const audioData = audioBuffer.getChannelData(0);
+            const duration = audioBuffer.duration;
+            const minValue = 0.01;
+            const mergeDuration = 0.2;
+            const scale = duration / audioData.length;
+
+            // Find when silence ends
+            let startSound = 0;
+            for (let i = 0; i < audioData.length; i++) {
+                if (audioData[i] > minValue) {
+                    startSound = i;
+                    break;
+                }
+            }
+
+            // Find when sounds end
+            let endSound = audioData.length - 1;
+            for (let i = audioData.length - 1; i > 0; i--) {
+                if (audioData[i] > minValue) {
+                    endSound = i;
+                    break;
+                }
+            }
+
+            return {
+                start: scale * startSound,
+                end: scale * endSound
+            };
+        }
+
+        window.onGoListener = function() {
             let customWord = document.getElementById("textToSay").value;
             if (customWord == "") {
                 document.getElementById("itsTimeToDuel").play();
@@ -22,13 +55,64 @@
                     return audioLink;
                 })
                 .then(audioLink => {
-                    wavesurfer = WaveSurfer.create({
-                        container: '#waveform',
-                        waveColor: '#4F4A85',
-                        progressColor: '#383351',
-                        url: audioLink,
-                    });
-                })
+                    let crunker = new Crunker();
+                    crunker.fetchAudio(audioLink)
+                        // Trim silence, get full word sound
+                        .then((buffers) => {
+                            const region = extractNonSilentRegions(buffers[0]);
+                            return Promise.all([
+                                fetch("startSound.mp3"),
+                                fetch("endSound.mp3"),
+                                crunker.sliceAudio(buffers[0], region.start, region.end)
+                            ]);
+                            return ;
+                        })
+                        // Extract D and Du sounds
+                        .then((fullWordAndStartEndSounds) => {
+                            const startSound = fullWordAndStartEndSounds[0];
+                            const endSound = fullWordAndStartEndSounds[1];
+                            const fullWord = fullWordAndStartEndSounds[2];
+                            return Promise.all([
+                                startSound.arrayBuffer(),
+                                endSound.arrayBuffer(),
+                                crunker.sliceAudio(fullWord, 0, 0.075), 
+                                crunker.sliceAudio(fullWord, 0, 0.1), 
+                                fullWord
+                            ]);
+                        })
+                        // Add silences
+                        .then((audios) => {
+                            let audioContext = new AudioContext();
+                            const startSound = audios[0];
+                            const endSound = audios[1];
+                            const dSound = audios[2];
+                            const duSound = audios[3];
+                            const fullWordSound = audios[4];
+                            return Promise.all([
+                                audioContext.decodeAudioData(startSound),
+                                crunker.padAudio(dSound, 0.075, 0.04),
+                                crunker.padAudio(dSound, 0.075, 0.135),
+                                crunker.padAudio(dSound, 0.075, 0.138),
+                                crunker.padAudio(dSound, 0.075, 0.318),
+                                duSound,
+                                fullWordSound,
+                                audioContext.decodeAudioData(endSound),
+                            ])
+                        })
+                        // Combine everything
+                        .then((audios) => {
+                            const startSound = audios[0];
+                            const dSound1 = audios[1];
+                            const dSound2 = audios[2];
+                            const dSound3 = audios[3];
+                            const dSound4 = audios[4];
+                            const duSound = audios[5];
+                            const fullWordSound = audios[6];
+                            const endSound = audios[7];
+                            return crunker.concatAudio([startSound, dSound1, dSound2, dSound3, dSound4, duSound, duSound, duSound, duSound, duSound, fullWordSound, endSound]);
+                        })
+                        .then(audio => crunker.play(audio));
+            })
         }
 
         
@@ -42,16 +126,9 @@
     <input type="text" id="textToSay" placeholder="duel">
     <p>!</p>
     <button onclick="onGoListener()">Go</button>
-    <div id="waveform"></div>
 
     <audio id="itsTimeToDuel">
         <source src="its-time-to-duel.mp3" type="audio/mpeg">
-    </audio>
-    <audio id="startSound">
-        <source src="startSound.mp3" type="audio/mpeg">
-    </audio>
-    <audio id="endSound">
-        <source src="endSound.mp3" type="audio/mpeg">
     </audio>
 </body>
 
