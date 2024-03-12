@@ -14,7 +14,12 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 <br>
 
 ## Publications
-**Rollbaccine: Herd Immunity Against Rollbacks for TEEs**  
+<a href="https://github.com/rithvikp/autocomp/blob/master/benchmarks/vldb24/Evil_Serverless_Consensus__PaPoC_2024.pdf">Bigger, not Badder: Safely Scaling BFT Protocols</a>  
+[```Github```](https://github.com/rithvikp/autocomp)  
+David Chu, Chris Liu, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
+*PaPoC 2024*  
+
+**Rollbaccine: Herd Immunity Against Rollbacks for TEEs (WIP)**  
 [```Poster```](https://docs.google.com/presentation/d/11BPj-w6UJu3JCIqu4uKLambG6yWf4I3yruRDKk5K1CU/edit?usp=sharing) [```15min Talk```](https://www.youtube.com/watch?v=RXqR5Rjn1co)  
 David Chu, Soujanya Ponnapalli, Chris Liu, Eddy Ashton, Amaury Chamayou, Natacha Crooks, Heidi Howard  
 Presented at ACM SOSP 2023 Poster Session  
@@ -39,6 +44,7 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 *DSN 2020*
 
 ## Research activity
+- 4/22/24 I will be presenting (*Bigger, not Badder: Safely Scaling BFT Protocols*) at PaPoC 2024 (EuroSys)!
 - 9/28/23 I will be presenting (*Rollbaccine: Herd Immunity Against Rollbacks for TEEs*) at the poster session at SOSP 2023!
 - 9/20/23 My first first-author paper (*Optimizing Distributed Protocols with Query Rewrites*) was accepted into SIGMOD 2024 with minor revisions!
 
@@ -90,3 +96,8 @@ Here are some projects I've worked on as part of the team.
 >
 > [```iOS source```](https://github.com/davidchuyaya/Froggy-Math/tree/main)  
 > An iOS app to help my girlfriend get better at multiplication.
+>
+> #### It's time to [insert your thing]
+>
+> [```Website```](https://davidchuyaya.github.io/) [```Source```](https://github.com/davidchuyaya/davidchuyaya.github.io)  
+> A website to create your custom "It's time to duel" sound.
