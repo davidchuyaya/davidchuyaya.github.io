@@ -6,7 +6,7 @@
 
 I'm currently pursuing a PhD in **distributed systems** and am co-advised by Professors [Joe Hellerstein](https://dsf.berkeley.edu/jmh/index.html) and [Natacha Crooks](https://nacrooks.github.io/). I'm a part of the [Hydro project](https://hydro.run/).  
 In my spare time, I love playing badminton, teaching, and listening to classical music. 
-<a href="https://youtu.be/kvjLjtEr0AQ">Here's a video</a> of my senior recital, where I performed Brahms Ballades Op. 10, Thomas Ades' Darknesse Visible, and Beethoven's Appassionata Op. 57, one of my favorite sonatas.
+[Here's a video](https://youtu.be/kvjLjtEr0AQ) of my senior recital, where I performed Brahms Ballades Op. 10, Thomas Ades' Darknesse Visible, and Beethoven's Appassionata Op. 57, one of my favorite sonatas.
 
 [```Email```](mailto:thedavidchu@berkeley.edu) [```Github```](https://github.com/davidchuyaya) [```Resume```](https://docs.google.com/document/d/1oZ8qqCvXfJUhQ5LPVVmh1qrv9hrbS2k187Py75Q-zuA/edit?usp=sharing)
 
@@ -14,7 +14,7 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 <br>
 
 ## Publications
-<a href="https://github.com/rithvikp/autocomp/blob/master/benchmarks/vldb24/Evil_Serverless_Consensus__PaPoC_2024.pdf">Bigger, not Badder: Safely Scaling BFT Protocols</a>  
+[Bigger, not Badder: Safely Scaling BFT Protocols](https://github.com/rithvikp/autocomp/blob/master/benchmarks/vldb24/Evil_Serverless_Consensus__PaPoC_2024.pdf)  
 [```Github```](https://github.com/rithvikp/autocomp)  
 David Chu, Chris Liu, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
 *PaPoC 2024*  
@@ -24,21 +24,21 @@ David Chu, Chris Liu, Natacha Crooks, Joe Hellerstein, & Heidi Howard
 David Chu, Soujanya Ponnapalli, Chris Liu, Eddy Ashton, Amaury Chamayou, Natacha Crooks, Heidi Howard  
 Presented at ACM SOSP 2023 Poster Session  
 
-**Optimizing Distributed Protocols with Query Rewrites**  
+[Optimizing Distributed Protocols with Query Rewrites](https://dl.acm.org/doi/pdf/10.1145/3639257)  
  [```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```5min Talk```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing) [```Github```](https://github.com/rithvikp/autocomp) [```Technical Report```](https://github.com/rithvikp/autocomp/blob/master/benchmarks/vldb24/Automatic_Compartmentalization_tr.pdf)  
 David Chu, Rithvik Panchapakesan, Shadaj Laddad, Lucky Katahanas, Chris Liu, Kaushik Shivakumar, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
 ACM SOSP 2021 Student Research Competition (Winner)  
 *SIGMOD 2024*  
 
-<a href="https://www.usenix.org/system/files/osdi23-cheng.pdf">Take Out the TraChe: Maximizing (Tra)nsactional Ca(che) Hit Rate</a>  
+[Take Out the TraChe: Maximizing (Tra)nsactional Ca(che) Hit Rate](https://www.usenix.org/system/files/osdi23-cheng.pdf)  
 Audrey Cheng, David Chu, Terrance Li, Jason Chan, Natacha Crooks, Joseph M. Hellerstein, Ion Stoica, & Xiangyao Yu  
 *OSDI 2023*
 
-<a href="https://www.usenix.org/conference/nsdi20/presentation/ding">Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log</a>  
+[Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log](https://www.usenix.org/conference/nsdi20/presentation/ding)  
 Cong Ding, David Chu, Evan Zhao, Xiang Li, Lorenzo Alvisi, & Robbert Van Renesse  
 *NSDI 2020*
 
-<a href="https://ieeexplore.ieee.org/document/9153445">Reliable, Efficient Recovery for Complex Services with Replicated Subsystems</a>  
+[Reliable, Efficient Recovery for Complex Services with Replicated Subsystems](https://ieeexplore.ieee.org/document/9153445)  
 [```Free link```](https://research.cs.cornell.edu/projects/Quicksilver/public_pdfs/complex-restart.pdf)  
 Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman  
 *DSN 2020*
