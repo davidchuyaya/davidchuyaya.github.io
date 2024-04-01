@@ -11,7 +11,7 @@
         function extractNonSilentRegions(audioBuffer) {
             const audioData = audioBuffer.getChannelData(0);
             const duration = audioBuffer.duration;
-            const minValue = 0.01;
+            const minValue = 0.05;
             const mergeDuration = 0.2;
             const scale = duration / audioData.length;
 
@@ -40,92 +40,113 @@
         }
 
         window.onGoListener = function() {
+            // Change background randomly
+            const backgrounds = ["bg1.png", "bg2.png", "bg3.png"];
+            const randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+            document.body.style.backgroundImage = `url(${randomBackground})`;
+
             let customWord = document.getElementById("textToSay").value;
             if (customWord == "") {
                 document.getElementById("itsTimeToDuel").play();
                 return;
             }
 
-            const link = `https://api.dictionaryapi.dev/api/v2/entries/en/${customWord}`;
-            fetch(link)
+            let words = customWord.split(" ");
+            // Known issue: there's no mp3 for the word "to". Replace with "two"
+            words = words.map(word => word === "to" ? "two" : word);
+
+            console.log(words);
+            let crunker = new Crunker();
+
+            // Get all individual words' sounds
+            Promise.all(words.map(word => 
+                fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`)
                 .then(response => response.json())
                 .then(data => {
                     const possiblePhonetics = data[0].phonetics;
                     const audioLink = possiblePhonetics.filter(phonetic => phonetic.audio !== "")[0].audio;
-                    return audioLink;
+                    return crunker.fetchAudio(audioLink);
                 })
-                .then(audioLink => {
-                    let crunker = new Crunker();
-                    crunker.fetchAudio(audioLink)
-                        // Trim silence, get full word sound
-                        .then((buffers) => {
-                            const region = extractNonSilentRegions(buffers[0]);
+                .then(buffers => {
+                    const region = extractNonSilentRegions(buffers[0]);
+                    return crunker.sliceAudio(buffers[0], region.start, region.end);
+                })))
+                .then(wordAudios => {
+                    Promise.all([
+                        fetch("startSound.mp3"),
+                        fetch("endSound.mp3")])
+                        .then(sounds => {
                             return Promise.all([
-                                fetch("startSound.mp3"),
-                                fetch("endSound.mp3"),
-                                crunker.sliceAudio(buffers[0], region.start, region.end)
-                            ]);
-                            return ;
-                        })
-                        // Extract D and Du sounds
-                        .then((fullWordAndStartEndSounds) => {
-                            const startSound = fullWordAndStartEndSounds[0];
-                            const endSound = fullWordAndStartEndSounds[1];
-                            const fullWord = fullWordAndStartEndSounds[2];
-                            return Promise.all([
-                                startSound.arrayBuffer(),
-                                endSound.arrayBuffer(),
-                                crunker.sliceAudio(fullWord, 0, 0.075), 
-                                crunker.sliceAudio(fullWord, 0, 0.1), 
-                                fullWord
+                                sounds[0].arrayBuffer(),
+                                sounds[1].arrayBuffer(),
+                                // Extract D and Du sounds
+                                crunker.sliceAudio(wordAudios[0], 0, 0.075),
+                                crunker.sliceAudio(wordAudios[0], 0, 0.1)
                             ]);
                         })
                         // Add silences
-                        .then((audios) => {
+                        .then(audios => {
                             let audioContext = new AudioContext();
                             const startSound = audios[0];
                             const endSound = audios[1];
                             const dSound = audios[2];
                             const duSound = audios[3];
-                            const fullWordSound = audios[4];
                             return Promise.all([
                                 audioContext.decodeAudioData(startSound),
+                                audioContext.decodeAudioData(endSound),
                                 crunker.padAudio(dSound, 0.075, 0.04),
                                 crunker.padAudio(dSound, 0.075, 0.135),
                                 crunker.padAudio(dSound, 0.075, 0.138),
                                 crunker.padAudio(dSound, 0.075, 0.318),
-                                duSound,
-                                fullWordSound,
-                                audioContext.decodeAudioData(endSound),
+                                duSound
                             ])
                         })
                         // Combine everything
                         .then((audios) => {
                             const startSound = audios[0];
-                            const dSound1 = audios[1];
-                            const dSound2 = audios[2];
-                            const dSound3 = audios[3];
-                            const dSound4 = audios[4];
-                            const duSound = audios[5];
-                            const fullWordSound = audios[6];
-                            const endSound = audios[7];
-                            return crunker.concatAudio([startSound, dSound1, dSound2, dSound3, dSound4, duSound, duSound, duSound, duSound, duSound, fullWordSound, endSound]);
+                            const endSound = audios[1];
+                            const dSound1 = audios[2];
+                            const dSound2 = audios[3];
+                            const dSound3 = audios[4];
+                            const dSound4 = audios[5];
+                            const duSound = audios[6];
+                            return crunker.concatAudio([startSound, dSound1, dSound2, dSound3, dSound4, duSound, duSound, duSound, duSound, duSound, ...wordAudios, endSound]);
                         })
                         .then(audio => crunker.play(audio));
-            })
+                });
         }
 
         
     </script>
 
+    <style>
+        body {
+            background-image: url("bg3.png");
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+
+            color: white;
+            text-align: center;
+        }
+        .text {
+            display: inline-block;
+            font-family: Impact;
+            font-size: 4em;
+            margin: 8px;
+        }
+    </style>
+
     <title>It's time to [insert your thing]</title>
 </head>
 
 <body>
-    <p>It's time to </p>
-    <input type="text" id="textToSay" placeholder="duel">
-    <p>!</p>
-    <button onclick="onGoListener()">Go</button>
+    <div style="height: 50%"></div>
+    <p class="text">It's time to</p>
+    <input class="text" type="text" id="textToSay" placeholder="duel">
+    <p class="text">!</p><br>
+    <button class="text" onclick="onGoListener()">Go</button>
 
     <audio id="itsTimeToDuel">
         <source src="its-time-to-duel.mp3" type="audio/mpeg">
