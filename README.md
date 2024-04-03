@@ -25,7 +25,7 @@ David Chu, Soujanya Ponnapalli, Chris Liu, Eddy Ashton, Amaury Chamayou, Natacha
 Presented at ACM SOSP 2023 Poster Session  
 
 [Optimizing Distributed Protocols with Query Rewrites](https://dl.acm.org/doi/pdf/10.1145/3639257)  
- [```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```5min Talk```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing) [```Github```](https://github.com/rithvikp/autocomp) [```Technical Report```](https://github.com/rithvikp/autocomp/blob/master/benchmarks/vldb24/Automatic_Compartmentalization_tr.pdf)  
+ [```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```5min Talk```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing) [```Github```](https://github.com/rithvikp/autocomp) [```Technical Report```](https://arxiv.org/abs/2404.01593)  
 David Chu, Rithvik Panchapakesan, Shadaj Laddad, Lucky Katahanas, Chris Liu, Kaushik Shivakumar, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
 ACM SOSP 2021 Student Research Competition (Winner)  
 *SIGMOD 2024*  
