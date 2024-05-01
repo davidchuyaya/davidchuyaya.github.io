@@ -14,7 +14,7 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 <br>
 
 ## Publications
-[Bigger, not Badder: Safely Scaling BFT Protocols](https://github.com/rithvikp/autocomp/blob/master/benchmarks/vldb24/Evil_Serverless_Consensus__PaPoC_2024.pdf)  
+[Bigger, not Badder: Safely Scaling BFT Protocols](https://dl.acm.org/doi/10.1145/3642976.3653033) 
 [```Github```](https://github.com/rithvikp/autocomp)  
 David Chu, Chris Liu, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
 *PaPoC 2024*  
@@ -24,7 +24,7 @@ David Chu, Chris Liu, Natacha Crooks, Joe Hellerstein, & Heidi Howard
 David Chu, Soujanya Ponnapalli, Chris Liu, Eddy Ashton, Amaury Chamayou, Natacha Crooks, Heidi Howard  
 Presented at ACM SOSP 2023 Poster Session  
 
-[Optimizing Distributed Protocols with Query Rewrites](https://dl.acm.org/doi/pdf/10.1145/3639257)  
+[Optimizing Distributed Protocols with Query Rewrites](https://dl.acm.org/doi/10.1145/3639257)  
  [```Abstract```](https://hydro.run/papers/auto-compartmentalization-src.pdf) [```5min Talk```](https://drive.google.com/file/d/1rkg3sKI65ZMKODI4D6DaOwaWWWhX4K_b/view?usp=sharing) [```Github```](https://github.com/rithvikp/autocomp) [```Technical Report```](https://arxiv.org/abs/2404.01593)  
 David Chu, Rithvik Panchapakesan, Shadaj Laddad, Lucky Katahanas, Chris Liu, Kaushik Shivakumar, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
 ACM SOSP 2021 Student Research Competition (Winner)  
