@@ -14,7 +14,7 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 <br>
 
 ## Publications
-[Bigger, not Badder: Safely Scaling BFT Protocols](https://dl.acm.org/doi/10.1145/3642976.3653033) 
+[Bigger, not Badder: Safely Scaling BFT Protocols](https://dl.acm.org/doi/10.1145/3642976.3653033)  
 [```Github```](https://github.com/rithvikp/autocomp)  
 David Chu, Chris Liu, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
 *PaPoC 2024*  
