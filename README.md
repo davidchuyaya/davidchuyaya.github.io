@@ -5,7 +5,7 @@
 *EECS PhD, UC Berkeley (since Fall 2020)*  
 *Computer Science B.S., Cornell University (Dec 2019)*
 
-[```Email```](mailto:thedavidchu@berkeley.edu) [```Twitter```](https://twitter.com/davidchuyaya) [```Github```](https://github.com/davidchuyaya) [```CV```](https://docs.google.com/viewer?url=https://docs.google.com/document/d/1oZ8qqCvXfJUhQ5LPVVmh1qrv9hrbS2k187Py75Q-zuA/export?format=pdf)
+[```Email```](mailto:thedavidchu@berkeley.edu) [```Twitter```](https://twitter.com/davidchuyaya) [```Google Scholar```](https://scholar.google.com/citations?user=7USKEJwAAAAJ&hl=en) [```Github```](https://github.com/davidchuyaya) [```CV```](https://docs.google.com/viewer?url=https://docs.google.com/document/d/1oZ8qqCvXfJUhQ5LPVVmh1qrv9hrbS2k187Py75Q-zuA/export?format=pdf)
 
 I'm currently pursuing a PhD in **distributed systems** and am co-advised by [Joe Hellerstein](https://dsf.berkeley.edu/jmh/index.html) and [Natacha Crooks](https://nacrooks.github.io/). I'm excited about automating what we find hardest about distributed systems: creating new protocols. Instead of creating individual bespoke protocols from scratch, I believe we should: 
 1. **Automatically optimize distributed protocols.** Traditionally, depending on the performance requirements, entirely new protocols would be created from scratch, requiring expertise and often resulting in correctness errors. We should instead take existing, well-studied protocols, like Paxos, and optimize them automatically using a set of small, provably-correct rewrites. This is my goal regarding [Hydro](https://hydro.run/).
