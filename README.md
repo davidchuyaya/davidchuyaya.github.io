@@ -1,14 +1,19 @@
 <img src="me.jpg" width="150px" height="150px" /> 
 
-# David Chu 
+# David Chu（朱崇亞）
+
 *EECS PhD, UC Berkeley (since Fall 2020)*  
 *Computer Science B.S., Cornell University (Dec 2019)*
 
-I'm currently pursuing a PhD in **distributed systems** and am co-advised by Professors [Joe Hellerstein](https://dsf.berkeley.edu/jmh/index.html) and [Natacha Crooks](https://nacrooks.github.io/). I'm a part of the [Hydro project](https://hydro.run/).  
-In my spare time, I love playing badminton, teaching, and listening to classical music. 
-[Here's a video](https://youtu.be/kvjLjtEr0AQ) of my senior recital, where I performed Brahms Ballades Op. 10, Thomas Ades' Darknesse Visible, and Beethoven's Appassionata Op. 57, one of my favorite sonatas.
+[```Email```](mailto:thedavidchu@berkeley.edu) [```Twitter```](https://twitter.com/davidchuyaya) [```Github```](https://github.com/davidchuyaya) [```CV```](https://docs.google.com/viewer?url=https://docs.google.com/document/d/1oZ8qqCvXfJUhQ5LPVVmh1qrv9hrbS2k187Py75Q-zuA/export?format=pdf)
 
-[```Email```](mailto:thedavidchu@berkeley.edu) [```Github```](https://github.com/davidchuyaya) [```Resume```](https://docs.google.com/document/d/1oZ8qqCvXfJUhQ5LPVVmh1qrv9hrbS2k187Py75Q-zuA/edit?usp=sharing)
+I'm currently pursuing a PhD in **distributed systems** and am co-advised by Professors [Joe Hellerstein](https://dsf.berkeley.edu/jmh/index.html) and [Natacha Crooks](https://nacrooks.github.io/). I'm excited about automating what we find hardest about distributed systems: creating new protocols. Instead of creating individual bespoke protocols from scratch, I believe we should: 
+1. **Automatically optimize distributed protocols.** Traditionally, depending on the performance requirements, entirely new protocols would be created from scratch, requiring expertise and often resulting in correctness errors. We should instead take existing, well-studied protocols, like Paxos, and optimize them automatically using a set of small, provably-correct rewrites. This is my goal regarding [Hydro](https://hydro.run/).
+2. **Automatically provide programs with resistance to rollback attacks**, a form of attack that programs running on TEEs (Trusted Execution Environments, like Intel SGX) are vulnerable to. Traditionally, new implementations of databases and replication protocols would be created from scratch to address rollback attacks. We should instead provide a simple lift-and-shift experience to developers moving their applications to TEEs. This is my goal regarding [Rollbaccine](https://github.com/davidchuyaya/rollbaccine).  
+
+In my spare time, I love playing badminton, teaching, and listening to classical music. 
+[Here's a video](https://youtu.be/kvjLjtEr0AQ) of my senior recital at Cornell, where I performed Brahms Ballades Op. 10, Thomas Ades' Darknesse Visible, and Beethoven's Appassionata Op. 57, one of my favorite sonatas.
+
 
 <br>
 <br>
@@ -20,7 +25,7 @@ David Chu, Chris Liu, Natacha Crooks, Joe Hellerstein, & Heidi Howard
 *PaPoC 2024*  
 
 **Rollbaccine: Herd Immunity Against Rollbacks for TEEs (WIP)**  
-[```Poster```](https://docs.google.com/presentation/d/11BPj-w6UJu3JCIqu4uKLambG6yWf4I3yruRDKk5K1CU/edit?usp=sharing) [```15min Talk```](https://www.youtube.com/watch?v=RXqR5Rjn1co)  
+[```Poster```](https://docs.google.com/presentation/d/11BPj-w6UJu3JCIqu4uKLambG6yWf4I3yruRDKk5K1CU/edit?usp=sharing) [```15min Talk```](https://www.youtube.com/watch?v=RXqR5Rjn1co) [```Github```](https://github.com/davidchuyaya/rollbaccine)  
 David Chu, Soujanya Ponnapalli, Chris Liu, Eddy Ashton, Amaury Chamayou, Natacha Crooks, Heidi Howard  
 Presented at ACM SOSP 2023 Poster Session  
 
@@ -43,20 +48,38 @@ Cong Ding, David Chu, Evan Zhao, Xiang Li, Lorenzo Alvisi, & Robbert Van Renesse
 Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman  
 *DSN 2020*
 
+<br>
+<br>
+
+## Media coverage
+6/28/24 [Blog post](https://muratbuffalo.blogspot.com/2024/06/optimizing-distributed-protocols-with.html) from Murat Demirbas on our SIGMOD 24 paper: Optimizing Distributed Protocols with Query Rewrites
+
+<br>
+<br>
+
 ## Research activity
-- 7/10/24 Poster presentation: Ongoing work after (*Optimizing Distributed Protocols with Query Rewrites*) at OSDI 2024!
-- 6/13/24 Paper presentation: (*Optimizing Distributed Protocols with Query Rewrites*) at SIGMOD 2024!
-- 4/22/24 Paper presentation: (*Bigger, not Badder: Safely Scaling BFT Protocols*) at PaPoC 2024 (EuroSys)!
-- 3/11/24 Acceptance: (*Bigger, not Badder: Safely Scaling BFT Protocols*) will be published at PaPoC 2024!
-- 9/28/23 Poster presentation: (*Rollbaccine: Herd Immunity Against Rollbacks for TEEs*) at SOSP 2023!
-- 9/20/23 Acceptance: (*Optimizing Distributed Protocols with Query Rewrites*) will be published at SIGMOD 2024 with minor revisions!
+### 2024
+7/10 Poster presentation: Ongoing work after (*Optimizing Distributed Protocols with Query Rewrites*) at OSDI 2024!  
+6/13 Paper presentation: (*Optimizing Distributed Protocols with Query Rewrites*) at SIGMOD 2024!  
+4/22 Paper presentation: (*Bigger, not Badder: Safely Scaling BFT Protocols*) at PaPoC 2024 (EuroSys)!  
+3/11 Acceptance: (*Bigger, not Badder: Safely Scaling BFT Protocols*) will be published at PaPoC 2024!  
+
+### 2023  
+9/28 Poster presentation: (*Rollbaccine: Herd Immunity Against Rollbacks for TEEs*) at SOSP 2023!  
+9/20 Acceptance: (*Optimizing Distributed Protocols with Query Rewrites*) will be published at SIGMOD 2024 with minor revisions!  
+
+<br>
+<br>
+
+## Awards
+2021 ACM SOSP Student Research Competition Winner
 
 <br>
 <br>
 
 ## Extra-curricular projects
 ### Cornell Design & Tech Initiative
-[DTI](https://www.cornelldti.org/) for short, a project team focused on using technology to generate community impact. That means creating events to educate students on web and mobile technologies and creating apps and websites to help the student community.
+[DTI](https://www.cornelldti.org/) was a project team focused on using technology to generate community impact. We curated events to educate students on web and mobile technologies; at the same time, we worked as a team to design apps and websites with the goal of student support.
 My proudest achievement is the establishment of biweekly DevSeshes and onboarding sessions for developers on the team, in which I taught developers on the team upcoming technologies such as React, Firebase, and Android/iOS programming.
 
 Here are some projects I've worked on as part of the team.
@@ -98,7 +121,7 @@ Here are some projects I've worked on as part of the team.
 > <img src="https://github.com/davidchuyaya/Froggy-Math/blob/main/appicon.jpeg?raw=true" width="100px" />
 >
 > [```iOS source```](https://github.com/davidchuyaya/Froggy-Math/tree/main)  
-> An iOS app to help my girlfriend get better at multiplication.
+> An iOS app to help my fiance drill mental math skills.
 >
 > #### It's time to [insert your thing]
 >
