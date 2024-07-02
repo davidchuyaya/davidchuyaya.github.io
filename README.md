@@ -74,7 +74,12 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 <br>
 
 ## Awards
-2021 ACM SOSP Student Research Competition Winner
+2024 UC Berkeley EECS Evergreen Award for Undergraduate Researcher Mentoring  
+2023 UC Berkeley EECS Award for Undergraduate Researcher Mentoring  
+2023 UC Berkeley SRC-URO Award  
+2022 UC Berkeley SRC-URO Award  
+2021 UC Berkeley SRC-URO Award  
+2021 ACM SOSP Student Research Competition Winner  
 
 <br>
 <br>
