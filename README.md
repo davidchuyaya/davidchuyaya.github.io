@@ -59,14 +59,15 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 
 ## Research activity
 ### 2024
-7/10 Poster presentation: Ongoing work after (*Optimizing Distributed Protocols with Query Rewrites*) at OSDI 2024!  
-6/13 Paper presentation: (*Optimizing Distributed Protocols with Query Rewrites*) at SIGMOD 2024!  
-4/22 Paper presentation: (*Bigger, not Badder: Safely Scaling BFT Protocols*) at PaPoC 2024 (EuroSys)!  
-3/11 Acceptance: (*Bigger, not Badder: Safely Scaling BFT Protocols*) will be published at PaPoC 2024!  
+7/10 Poster presentation: Ongoing work after (*Optimizing Distributed Protocols with Query Rewrites*) at OSDI 2024  
+6/13 Paper presentation: (*Optimizing Distributed Protocols with Query Rewrites*) at SIGMOD 2024  
+4/22 Paper presentation: (*Bigger, not Badder: Safely Scaling BFT Protocols*) at PaPoC 2024 (EuroSys)  
+3/20 Invited talk: (*Rollbaccine: Herd Immunity Against Rollbacks for TEEs*) at Intel  
+3/11 Acceptance: (*Bigger, not Badder: Safely Scaling BFT Protocols*) will be published at PaPoC 2024 
 
 ### 2023  
-9/28 Poster presentation: (*Rollbaccine: Herd Immunity Against Rollbacks for TEEs*) at SOSP 2023!  
-9/20 Acceptance: (*Optimizing Distributed Protocols with Query Rewrites*) will be published at SIGMOD 2024 with minor revisions!  
+9/28 Poster presentation: (*Rollbaccine: Herd Immunity Against Rollbacks for TEEs*) at SOSP 2023  
+9/20 Acceptance: (*Optimizing Distributed Protocols with Query Rewrites*) will be published at SIGMOD 2024 with minor revisions  
 
 <br>
 <br>
