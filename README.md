@@ -60,6 +60,7 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 
 ## Research activity
 ### 2024
+9/16 My talk on Yu-Gi-Oh! and (*Optimizing Distributed Protocols with Query Rewrites*) was voted the best gong show talk at HPTS!  
 7/10 Poster presentation: Ongoing work after (*Optimizing Distributed Protocols with Query Rewrites*) at OSDI 2024  
 6/13 Paper presentation: (*Optimizing Distributed Protocols with Query Rewrites*) at SIGMOD 2024  
 4/22 Paper presentation: (*Bigger, not Badder: Safely Scaling BFT Protocols*) at PaPoC 2024 (EuroSys)  
@@ -74,6 +75,7 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 <br>
 
 ## Awards
+2024 [HPTS Best Gong Show Talk](https://youtu.be/CK_pK3Mh3fU)  
 2024 UC Berkeley EECS Evergreen Award for Undergraduate Researcher Mentoring  
 2023 UC Berkeley EECS Award for Undergraduate Researcher Mentoring  
 2023 UC Berkeley SRC-URO Award  
