@@ -53,6 +53,7 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 <br>
 
 ## Media coverage
+9/20/24 [Blog post](https://muratbuffalo.blogspot.com/2024/09/hpts24-day-1-part-2.html) from Murat Demirbas on my HPTS gong show talk (at the end of the article). Thanks Murat!  
 6/28/24 [Blog post](https://muratbuffalo.blogspot.com/2024/06/optimizing-distributed-protocols-with.html) from Murat Demirbas on our SIGMOD 24 paper: Optimizing Distributed Protocols with Query Rewrites
 
 <br>
