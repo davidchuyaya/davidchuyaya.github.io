@@ -8,9 +8,10 @@
 [```Google Scholar```](https://scholar.google.com/citations?user=7USKEJwAAAAJ&hl=en) [```Github```](https://github.com/davidchuyaya) [```CV```](https://docs.google.com/viewer?url=https://docs.google.com/document/d/1oZ8qqCvXfJUhQ5LPVVmh1qrv9hrbS2k187Py75Q-zuA/export?format=pdf)  
 [```Email```](mailto:thedavidchu@berkeley.edu) [```YouTube```](https://www.youtube.com/channel/UCTN5jkopaVtABbd5nTuBFvA) [```Twitter```](https://twitter.com/davidchuyaya) 
 
-I'm currently pursuing a PhD in **distributed systems** and am co-advised by [Joe Hellerstein](https://dsf.berkeley.edu/jmh/index.html) and [Natacha Crooks](https://nacrooks.github.io/) in the [Sky Computing Lab](https://sky.cs.berkeley.edu/projects/). I'm excited about automating what we find hardest about distributed systems: creating new protocols. Instead of creating individual bespoke protocols from scratch, I believe we should: 
-1. **Automatically optimize distributed protocols.** Traditionally, depending on the performance requirements, entirely new protocols would be created from scratch, requiring expertise and often resulting in correctness errors. We should instead take existing, well-studied protocols, like Paxos, and optimize them automatically using a set of small, provably-correct rewrites. This is my goal regarding [Hydro](https://hydro.run/).
-2. **Automatically provide programs with resistance to rollback attacks**, a form of attack that programs running on TEEs (Trusted Execution Environments, like Intel SGX) are vulnerable to. Traditionally, new implementations of databases and replication protocols would be created from scratch to address rollback attacks. We should instead provide a simple lift-and-shift experience to developers moving their applications to TEEs. This is my goal regarding [Rollbaccine](https://github.com/davidchuyaya/rollbaccine).  
+I'm currently pursuing a PhD in **distributed systems**, co-advised by [Joe Hellerstein](https://dsf.berkeley.edu/jmh/index.html) and [Natacha Crooks](https://nacrooks.github.io/) in the [Sky Computing Lab](https://sky.cs.berkeley.edu/projects/). I'm excited about automating what we find hardest about distributed systems: creating new protocols.  
+Instead of creating individual bespoke protocols from scratch, I believe we should: 
+1. **Automatically optimize distributed protocols.** Traditionally, depending on the performance requirements, entirely new protocols would be created from scratch, requiring expertise and often resulting in correctness errors. We should instead take existing, well-studied protocols, like Paxos, and optimize them automatically using a set of small, provably-correct rewrites. This is my goal with [Hydro](https://hydro.run/).
+2. **Automatically provide programs with resistance to rollback attacks**, a form of attack that programs running on TEEs (Trusted Execution Environments, like Intel SGX) are vulnerable to. Traditionally, new implementations of databases and replication protocols would be created from scratch to address rollback attacks. We should instead provide a simple lift-and-shift experience to developers moving their applications to TEEs. This is my goal with [Rollbaccine](https://github.com/davidchuyaya/rollbaccine).  
 
 In my spare time, I love playing badminton, teaching, and listening to classical music. 
 [Here's a video](https://youtu.be/kvjLjtEr0AQ) of my senior recital at Cornell, where I performed Brahms Ballades Op. 10, Thomas Ades' Darknesse Visible, and Beethoven's Appassionata Op. 57, one of my favorite sonatas.
@@ -52,15 +53,18 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 <br>
 <br>
 
-## Media coverage
+## Media Coverage
 9/20/24 [Blog post](https://muratbuffalo.blogspot.com/2024/09/hpts24-day-1-part-2.html) from Murat Demirbas on my HPTS gong show talk (at the end of the article). Thanks Murat!  
 6/28/24 [Blog post](https://muratbuffalo.blogspot.com/2024/06/optimizing-distributed-protocols-with.html) from Murat Demirbas on our SIGMOD 24 paper: Optimizing Distributed Protocols with Query Rewrites
 
 <br>
 <br>
 
-## Research activity
+## Research Activity
 ### 2024
+11/14 Invited talk at Northeastern  
+11/13 Invited talk at Brown  
+11/12 Invited talk at MIT  
 9/16 My talk on Yu-Gi-Oh! and (*Optimizing Distributed Protocols with Query Rewrites*) was voted the best gong show talk at HPTS!  
 7/10 Poster presentation: Ongoing work after (*Optimizing Distributed Protocols with Query Rewrites*) at OSDI 2024  
 6/13 Paper presentation: (*Optimizing Distributed Protocols with Query Rewrites*) at SIGMOD 2024  
@@ -87,7 +91,7 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 <br>
 <br>
 
-## Extra-curricular projects
+## Extra-Curricular Projects
 ### Cornell Design & Tech Initiative
 [DTI](https://www.cornelldti.org/) was a project team focused on using technology to generate community impact. We curated events to educate students on web and mobile technologies; at the same time, we worked as a team to design apps and websites with the goal of student support.
 My proudest achievement is the establishment of biweekly DevSeshes and onboarding sessions for developers on the team, in which I taught developers on the team upcoming technologies such as React, Firebase, and Android/iOS programming.
