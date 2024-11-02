@@ -14,7 +14,7 @@ Instead of creating individual bespoke protocols from scratch, I believe we shou
 2. **Automatically provide programs with resistance to rollback attacks**, a form of attack that programs running on TEEs (Trusted Execution Environments, like Intel SGX) are vulnerable to. Traditionally, new implementations of databases and replication protocols would be created from scratch to address rollback attacks. We should instead provide a simple lift-and-shift experience to developers moving their applications to TEEs. This is my goal with [Rollbaccine](https://github.com/davidchuyaya/rollbaccine).  
 
 In my spare time, I love playing badminton, teaching, and listening to classical music. 
-[Here's a video](https://youtu.be/kvjLjtEr0AQ) of my senior recital at Cornell, where I performed Brahms Ballades Op. 10, Thomas Ades' Darknesse Visible, and Beethoven's Appassionata Op. 57, one of my favorite sonatas.
+[Here's a video](https://youtu.be/kvjLjtEr0AQ) of my senior recital at Cornell, where I performed Brahms Ballades Op. 10, Thomas Ades' _Darknesse Visible_, and Beethoven's _Appassionata_ Op. 57, one of my favorite sonatas.
 
 
 <br>
