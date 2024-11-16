@@ -21,15 +21,15 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 <br>
 
 ## Publications
-[Bigger, not Badder: Safely Scaling BFT Protocols](https://dl.acm.org/doi/10.1145/3642976.3653033)  
-[```Github```](https://github.com/rithvikp/autocomp)  
-David Chu, Chris Liu, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
-*PaPoC 2024*  
-
 **Rollbaccine: Herd Immunity Against Rollbacks for TEEs (WIP)**  
 [```Video```](https://www.youtube.com/watch?v=RXqR5Rjn1co) [```Poster```](https://docs.google.com/presentation/d/11BPj-w6UJu3JCIqu4uKLambG6yWf4I3yruRDKk5K1CU/edit?usp=sharing) [```Github```](https://github.com/davidchuyaya/rollbaccine)  
 David Chu, Soujanya Ponnapalli, Chris Liu, Eddy Ashton, Amaury Chamayou, Natacha Crooks, Heidi Howard  
 Presented at ACM SOSP 2023 Poster Session  
+
+[Bigger, not Badder: Safely Scaling BFT Protocols](https://dl.acm.org/doi/10.1145/3642976.3653033)  
+[```Github```](https://github.com/rithvikp/autocomp)  
+David Chu, Chris Liu, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
+*PaPoC 2024*  
 
 [Optimizing Distributed Protocols with Query Rewrites](https://dl.acm.org/doi/10.1145/3639257)  
 [```Video```](https://youtu.be/lEvFoeD8UUk) [```Github```](https://github.com/rithvikp/autocomp) [```Technical Report```](https://arxiv.org/abs/2404.01593)  
@@ -62,10 +62,10 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 
 ## Research Activity
 ### 2024
-11/14 Invited talk at Northeastern  
+11/14 [Invited talk](https://www.youtube.com/watch?v=qmVzvbtQuD0) at Northeastern  
 11/13 Invited talk at Brown  
 11/12 Invited talk at MIT  
-9/16 My talk on Yu-Gi-Oh! and (*Optimizing Distributed Protocols with Query Rewrites*) was voted the best gong show talk at HPTS!  
+9/16 [My talk](https://youtu.be/CK_pK3Mh3fU) on Yu-Gi-Oh! and (*Optimizing Distributed Protocols with Query Rewrites*) was voted the best gong show talk at HPTS!  
 7/10 Poster presentation: Ongoing work after (*Optimizing Distributed Protocols with Query Rewrites*) at OSDI 2024  
 6/13 Paper presentation: (*Optimizing Distributed Protocols with Query Rewrites*) at SIGMOD 2024  
 4/22 Paper presentation: (*Bigger, not Badder: Safely Scaling BFT Protocols*) at PaPoC 2024 (EuroSys)  
