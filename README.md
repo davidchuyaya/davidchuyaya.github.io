@@ -61,6 +61,9 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 <br>
 
 ## Research Activity
+## 2025
+1/7 I was awarded the RDI Frontier Fellows Award!
+
 ### 2024
 11/14 [Invited talk](https://www.youtube.com/watch?v=qmVzvbtQuD0) at Northeastern  
 11/13 Invited talk at Brown  
@@ -80,6 +83,7 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 <br>
 
 ## Awards
+2025 RDI Frontier Fellows Award  
 2024 [HPTS Best Gong Show Talk](https://youtu.be/CK_pK3Mh3fU)  
 2024 UC Berkeley EECS Evergreen Award for Undergraduate Researcher Mentoring  
 2023 UC Berkeley EECS Award for Undergraduate Researcher Mentoring  
