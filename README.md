@@ -95,6 +95,12 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 <br>
 <br>
 
+## Service
+2024 SIGMOD ARI Reviewer  
+
+<br>
+<br>
+
 ## Extra-Curricular Projects
 ### Cornell Design & Tech Initiative
 [DTI](https://www.cornelldti.org/) was a project team focused on using technology to generate community impact. We curated events to educate students on web and mobile technologies; at the same time, we worked as a team to design apps and websites with the goal of student support.
