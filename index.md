@@ -12,17 +12,17 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 
 ## Publications
 **Rollbaccine: Herd Immunity Against Rollbacks for TEEs (WIP)**  
-[Video](https://www.youtube.com/watch?v=RXqR5Rjn1co) / [Poster](https://docs.google.com/presentation/d/11BPj-w6UJu3JCIqu4uKLambG6yWf4I3yruRDKk5K1CU/edit?usp=sharing) / [Github](https://github.com/davidchuyaya/rollbaccine)  
-David Chu, Soujanya Ponnapalli, Chris Liu, Eddy Ashton, Amaury Chamayou, Natacha Crooks, Heidi Howard  
+[Video](https://www.youtube.com/watch?v=RXqR5Rjn1co) / [Poster](https://docs.google.com/presentation/d/1X5FRoWesHvsitDXEANTAniRyf274bjltZXPJ1Y-l3e0/edit?usp=sharing) / [Github](https://github.com/davidchuyaya/rollbaccine)  
+David Chu, Aditya Balasubramanian, Dee Bao, Natacha Crooks, Heidi Howard, Lucky Katahanas, Soujanya Ponnapalli  
 Presented at ACM SOSP 2023 Poster Session  
 
 [Bigger, not Badder: Safely Scaling BFT Protocols](https://dl.acm.org/doi/10.1145/3642976.3653033)  
-[Github](https://github.com/rithvikp/autocomp)  
+[Poster](https://docs.google.com/presentation/d/1v4DuoYuByMY9aT148zGBopJqlJtx0ZaIJFCpC2cbqe0/edit?usp=sharing) / [Github](https://github.com/rithvikp/autocomp)  
 David Chu, Chris Liu, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
 *PaPoC 2024*  
 
-[Optimizing Distributed Protocols with Query Rewrites](https://dl.acm.org/doi/10.1145/3639257)  
-[Video](https://youtu.be/lEvFoeD8UUk) / [Github](https://github.com/rithvikp/autocomp) / [Technical Report](https://arxiv.org/abs/2404.01593)  
+[Optimizing Distributed Protocols with Query Rewrites](https://dl.acm.org/doi/10.1145/3639257) <img alt="Artifacts available" src="artifacts-available.png" width="20px"/> <img alt="Artifacts evaluated and reusable" src="artifacts-evaluated-and-reusable.png" width="20px"/> <img alt="Results reproduced" src="results-reproduced.png" width="20px"/>  
+[Video](https://youtu.be/lEvFoeD8UUk) / [Poster](https://docs.google.com/presentation/d/1rjLTfHUV_acuOgESaB_rQXxjOUEinEGLAnJajveENfU/edit?usp=sharing) / [Github](https://github.com/rithvikp/autocomp) / [Technical Report](https://arxiv.org/abs/2404.01593)  
 David Chu, Rithvik Panchapakesan, Shadaj Laddad, Lucky Katahanas, Chris Liu, Kaushik Shivakumar, Natacha Crooks, Joe Hellerstein, & Heidi Howard  
 ACM SOSP 2021 Student Research Competition (Winner)  
 *SIGMOD 2024*  
