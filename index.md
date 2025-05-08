@@ -12,7 +12,7 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 
 ## Publications
 **Rollbaccine: Herd Immunity Against Rollbacks for TEEs (WIP)**  
-[Video](https://www.youtube.com/watch?v=RXqR5Rjn1co) / [Poster](https://docs.google.com/presentation/d/1X5FRoWesHvsitDXEANTAniRyf274bjltZXPJ1Y-l3e0/edit?usp=sharing) / [Github](https://github.com/davidchuyaya/rollbaccine)  
+[Video](https://www.youtube.com/watch?v=RXqR5Rjn1co) / [Poster](https://docs.google.com/presentation/d/1X5FRoWesHvsitDXEANTAniRyf274bjltZXPJ1Y-l3e0/edit?usp=sharing) / [Github](https://github.com/davidchuyaya/rollbaccine) / [Technical Report](https://arxiv.org/abs/2505.04014)  
 David Chu, Aditya Balasubramanian, Dee Bao, Natacha Crooks, Heidi Howard, Lucky Katahanas, Soujanya Ponnapalli  
 Presented at ACM SOSP 2023 Poster Session  
 
