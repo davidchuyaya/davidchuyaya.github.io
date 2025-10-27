@@ -52,6 +52,7 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 
 ## Research Activity
 ## 2025
+10/20 Invited talk at Princeton  
 6/22 Paper presentation: (*Rollbaccine: Herd Immunity Against Rollbacks for TEEs*) at Confidential Computing Summit 2025  
 1/7 I was awarded the RDI Frontier Fellows Award!
 
