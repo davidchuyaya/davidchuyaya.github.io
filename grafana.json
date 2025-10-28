@@ -808,7 +808,7 @@
           "calcs": [
             "first"
           ],
-          "fields": "/^Time$/",
+          "fields": "/^runTime$/",
           "values": false
         },
         "showPercentChange": false,
@@ -831,10 +831,36 @@
       "title": "Local Backup Last ran Borg",
       "transformations": [
         {
+          "id": "extractFields",
+          "options": {
+            "format": "json",
+            "jsonPaths": [
+              {
+                "alias": "runTime",
+                "path": "archives[0].name"
+              }
+            ],
+            "source": "Line"
+          }
+        },
+        {
+          "id": "convertFieldType",
+          "options": {
+            "conversions": [
+              {
+                "dateFormat": "YYYY-MM-DDThh:mm:ss",
+                "destinationType": "time",
+                "targetField": "runTime"
+              }
+            ],
+            "fields": {}
+          }
+        },
+        {
           "id": "formatTime",
           "options": {
             "outputFormat": "MM/DD hh:mm:ss A",
-            "timeField": "Time",
+            "timeField": "runTime",
             "timezone": "browser",
             "useTimezone": true
           }
@@ -881,7 +907,7 @@
           "calcs": [
             "first"
           ],
-          "fields": "/^Time$/",
+          "fields": "/^runTime$/",
           "values": false
         },
         "showPercentChange": false,
@@ -904,10 +930,36 @@
       "title": "Remote Backup Last ran Borg",
       "transformations": [
         {
+          "id": "extractFields",
+          "options": {
+            "format": "json",
+            "jsonPaths": [
+              {
+                "alias": "runTime",
+                "path": "archives[0].name"
+              }
+            ],
+            "source": "Line"
+          }
+        },
+        {
+          "id": "convertFieldType",
+          "options": {
+            "conversions": [
+              {
+                "dateFormat": "YYYY-MM-DDThh:mm:ss",
+                "destinationType": "time",
+                "targetField": "runTime"
+              }
+            ],
+            "fields": {}
+          }
+        },
+        {
           "id": "formatTime",
           "options": {
             "outputFormat": "MM/DD hh:mm:ss A",
-            "timeField": "Time",
+            "timeField": "runTime",
             "timezone": "browser",
             "useTimezone": true
           }
@@ -930,6 +982,6 @@
   "timezone": "browser",
   "title": "Immich",
   "uid": "af2dq5qrwef40d",
-  "version": 4,
+  "version": 5,
   "weekStart": ""
 }
