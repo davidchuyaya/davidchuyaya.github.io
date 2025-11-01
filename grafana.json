@@ -18,7 +18,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 1,
+  "id": 3,
   "links": [],
   "panels": [
     {
@@ -64,7 +64,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "first"
+            "last"
           ],
           "fields": "/^disk$/",
           "values": false
@@ -88,6 +88,17 @@
       ],
       "title": "Immich Disk Usage",
       "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "field": "Time"
+              }
+            ]
+          }
+        },
         {
           "id": "extractFields",
           "options": {
@@ -147,7 +158,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "first"
+            "last"
           ],
           "fields": "/^size$/",
           "values": false
@@ -171,6 +182,17 @@
       ],
       "title": "Local Backup Borg Disk Usage",
       "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "field": "Time"
+              }
+            ]
+          }
+        },
         {
           "id": "extractFields",
           "options": {
@@ -230,7 +252,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "first"
+            "last"
           ],
           "fields": "/^disk$/",
           "values": false
@@ -255,6 +277,17 @@
       ],
       "title": "Remote Backup Borg Disk Usage",
       "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "field": "Time"
+              }
+            ]
+          }
+        },
         {
           "id": "extractFields",
           "options": {
@@ -324,7 +357,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "first"
+            "last"
           ],
           "fields": "/^passed$/",
           "values": false
@@ -348,6 +381,17 @@
       ],
       "title": "Disk Status",
       "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "field": "Time"
+              }
+            ]
+          }
+        },
         {
           "id": "extractFields",
           "options": {
@@ -417,7 +461,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "first"
+            "last"
           ],
           "fields": "/^passed$/",
           "values": false
@@ -441,6 +485,17 @@
       ],
       "title": "Local Backup Status",
       "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "field": "Time"
+              }
+            ]
+          }
+        },
         {
           "id": "extractFields",
           "options": {
@@ -510,7 +565,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "first"
+            "last"
           ],
           "fields": "/^passed$/",
           "values": false
@@ -534,6 +589,17 @@
       ],
       "title": "Remote Backup Status",
       "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "field": "Time"
+              }
+            ]
+          }
+        },
         {
           "id": "extractFields",
           "options": {
@@ -587,7 +653,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "first"
+            "last"
           ],
           "fields": "/^Time$/",
           "values": false
@@ -611,6 +677,17 @@
       ],
       "title": "Disk Last ran SmartCTL",
       "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "field": "Time"
+              }
+            ]
+          }
+        },
         {
           "id": "formatTime",
           "options": {
@@ -660,7 +737,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "first"
+            "last"
           ],
           "fields": "/^Time$/",
           "values": false
@@ -684,6 +761,17 @@
       ],
       "title": "Local Backup Last ran SmartCTL",
       "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "field": "Time"
+              }
+            ]
+          }
+        },
         {
           "id": "formatTime",
           "options": {
@@ -733,7 +821,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "first"
+            "last"
           ],
           "fields": "/^Time$/",
           "values": false
@@ -757,6 +845,17 @@
       ],
       "title": "Remote Backup Last ran SmartCTL",
       "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "field": "Time"
+              }
+            ]
+          }
+        },
         {
           "id": "formatTime",
           "options": {
@@ -806,7 +905,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "first"
+            "last"
           ],
           "fields": "/^runTime$/",
           "values": false
@@ -830,6 +929,17 @@
       ],
       "title": "Local Backup Last ran Borg",
       "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "field": "Time"
+              }
+            ]
+          }
+        },
         {
           "id": "extractFields",
           "options": {
@@ -905,7 +1015,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "first"
+            "last"
           ],
           "fields": "/^runTime$/",
           "values": false
@@ -929,6 +1039,17 @@
       ],
       "title": "Remote Backup Last ran Borg",
       "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "field": "Time"
+              }
+            ]
+          }
+        },
         {
           "id": "extractFields",
           "options": {
@@ -982,6 +1103,6 @@
   "timezone": "browser",
   "title": "Immich",
   "uid": "af2dq5qrwef40d",
-  "version": 5,
+  "version": 1,
   "weekStart": ""
 }
