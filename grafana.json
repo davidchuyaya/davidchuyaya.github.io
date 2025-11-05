@@ -200,7 +200,7 @@
             "jsonPaths": [
               {
                 "alias": "size",
-                "path": "cache.stats.unique_csize"
+                "path": "archives[0].stats.original_size"
               }
             ],
             "source": "Line"
@@ -295,7 +295,7 @@
             "jsonPaths": [
               {
                 "alias": "disk",
-                "path": "cache.stats.unique_csize"
+                "path": "archives[0].stats.original_size"
               }
             ],
             "source": "Line"
