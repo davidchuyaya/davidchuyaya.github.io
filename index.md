@@ -116,31 +116,25 @@ Here are some projects I've worked on as part of the team.
 <br>
 
 ### Personal projects
-> #### And My Code Is Ended
-> <img src="https://raw.githubusercontent.com/davidchuyaya/and-my-code-is-ended-android/master/icon.png" width="100px" />
-> 
-> [Android](https://github.com/davidchuyaya/and-my-code-is-ended-android) / [Backend](https://github.com/davidchuyaya/and-my-code-is-ended-backend)  
-> An app to wake the user up with a line of code. If you're tired of constantly checking when your code is finished, add that line of code to your script, go to sleep, and be woken up by the app!
-
-> #### Visit Once
-> <img src="https://github.com/davidchuyaya/VisitOnce/raw/master/Resources/logo.png" width="100px" />
->
-> [Source](https://github.com/davidchuyaya/VisitOnce)  
-> A chrome extension that limits selected websites to a single visit a day, created to maximize productivity.
-
 > #### NSHS Guide
 > <img src="https://github.com/NSHS-App-Design-Team/NSHS-Guide-Android/blob/master/resources/App%20Icon.png?raw=true" width="100px" />
 >
 > [Frontend & Backend](https://github.com/NSHS-App-Design-Team/NSHS-Guide-Website) / [iOS](https://github.com/NSHS-App-Design-Team/NSHS-Guide-iOS) / [Android](https://github.com/NSHS-App-Design-Team/NSHS-Guide-Android)  
 > An iOS, Android app + website for students at Newton South High School to check which classes they can skip for that day. It's integrated into each students' daily schedule so they are each alerted which of their teachers are absent. The app read emails sent by the principal's secretary, parsed it with PHP, stored the data in MySQL, and beamed messages to users detailing their updated schedule. I was the sole Android and iOS developer on the app, working with [Eric Lin](https://github.com/EricSihaoLin), the backend developer. I also rewrote the backend in PHP and frontend in Polymer.js, pushed by Google as an Angular alternative at the time.
->
+
 > #### Froggy Math
 > <img src="https://github.com/davidchuyaya/Froggy-Math/blob/main/appicon.jpeg?raw=true" width="100px" />
 >
 > [iOS](https://github.com/davidchuyaya/Froggy-Math/tree/main)  
-> An iOS app to help my fiance drill mental math skills.
->
+> An iOS app to help my wife drill mental math skills.
+
 > #### It's time to [insert your thing]
 >
 > [Website](https://davidchuyaya.github.io/yugioh) / [Source](https://github.com/davidchuyaya/davidchuyaya.github.io)  
 > A website to create your custom "It's time to duel" sound.
+
+> #### Humanities for STEM Brains
+> <img src="https://www.stembrainstutor.com/humanities_logo_long.png" height="100px" />  
+> 
+> [Website](https://www.stembrainstutor.com) / [Source](https://github.com/bizarrebirds/bizarrebirds.github.io)  
+> A website for my wife's tutoring business. If you have a child (or know of one) who is in high school and struggling with the humanities, sign them up!
