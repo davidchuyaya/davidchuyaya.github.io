@@ -76,6 +76,7 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 <br>
 
 ## Awards
+2026 MongoDB PhD Fellowship  
 2025 RDI Frontier Fellows Award  
 2024 [HPTS Best Gong Show Talk](https://youtu.be/CK_pK3Mh3fU)  
 2024 UC Berkeley EECS Evergreen Award for Undergraduate Researcher Mentoring  
@@ -126,7 +127,7 @@ Here are some projects I've worked on as part of the team.
 > <img src="https://github.com/davidchuyaya/Froggy-Math/blob/main/appicon.jpeg?raw=true" width="100px" />
 >
 > [iOS](https://github.com/davidchuyaya/Froggy-Math/tree/main)  
-> An iOS app to help my wife drill mental math skills.
+> An iOS app to drill mental math skills.
 
 > #### It's time to [insert your thing]
 >
@@ -138,3 +139,9 @@ Here are some projects I've worked on as part of the team.
 > 
 > [Website](https://www.stembrainstutor.com) / [Source](https://github.com/bizarrebirds/bizarrebirds.github.io)  
 > A website for my wife's tutoring business. If you have a child (or know of one) who is in high school and struggling with the humanities, sign them up!
+
+> #### BTS Flipthru
+> <img src="https://btsflipthru.com/logo_border.svg" height="100px" />  
+>
+> [Website](https://btsflipthru.com) / [Source](https://github.com/davidchuyaya/btsflipthru)  
+> A website for BTS fans to search and organize BTS photocards.
