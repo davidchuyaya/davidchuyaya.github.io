@@ -76,7 +76,7 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 <br>
 
 ## Awards
-2026 MongoDB PhD Fellowship  
+2026 [MongoDB PhD Fellowship](https://www.mongodb.com/company/blog/innovation/announcing-the-2026-mongodb-phd-fellowship-recipients)  
 2025 RDI Frontier Fellows Award  
 2024 [HPTS Best Gong Show Talk](https://youtu.be/CK_pK3Mh3fU)  
 2024 UC Berkeley EECS Evergreen Award for Undergraduate Researcher Mentoring  
