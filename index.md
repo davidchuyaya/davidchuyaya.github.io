@@ -78,12 +78,9 @@ Edward Tremel, Sagar Jha, Weijia Song, David Chu, & Ken Birman
 ## Awards
 2026 [MongoDB PhD Fellowship](https://www.mongodb.com/company/blog/innovation/announcing-the-2026-mongodb-phd-fellowship-recipients)  
 2025 RDI Frontier Fellows Award  
-2024 [HPTS Best Gong Show Talk](https://youtu.be/CK_pK3Mh3fU)  
-2024 UC Berkeley EECS Evergreen Award for Undergraduate Researcher Mentoring  
-2023 UC Berkeley EECS Award for Undergraduate Researcher Mentoring  
-2023 UC Berkeley SRC-URO Award  
-2022 UC Berkeley SRC-URO Award  
-2021 UC Berkeley SRC-URO Award  
+2024 [HPTS Best Gong Show Talk](https://youtu.be/CK_pK3Mh3fU)   
+2023-2026 UC Berkeley EECS Evergreen Graduate Research Award  
+2021-2023 UC Berkeley SRC-URO Award  
 2021 ACM SOSP Student Research Competition Winner  
 
 <br>
