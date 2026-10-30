@@ -10,7 +10,7 @@ In my spare time, I love playing badminton, teaching, and listening to classical
 
 ## Publications
 DistOptimize: Automatic Optimization of Distributed Protocols  
-[Github](https://github.com/hydro-project/hydro-optimize)  
+[Github](https://github.com/hydro-project/hydro-optimize) / [arXiv](https://arxiv.org/abs/2610.39017)  
 **David Chu McElroy**, Shadaj Laddad, Lucky Katahanas, Mingwei Samuel, Octavio Lomeli, Natacha Crooks, Joe Hellerstein, & Mohsen Lesani  
 *Under Submission*  
 
