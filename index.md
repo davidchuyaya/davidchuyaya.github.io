@@ -68,4 +68,20 @@ Edward Tremel, Sagar Jha, Weijia Song, **David Chu**, & Ken Birman
 
 <br>
 
+## Students
+
+[Vincent Tran](https://www.linkedin.com/in/vincentsamueltran/) (UC Berkeley Undergrad 2025-2026)  
+[Alex Wang](https://alexwang.tech/) (UC Berkeley Undergrad 2025-2026)  
+[Octavio Lomeli](https://www.linkedin.com/in/octaviolomeli/) (UC Berkeley Undergrad 2024-2026 -> AWS)  
+[Aditya Balasubramanian](https://www.linkedin.com/in/aditya-balasubramanian/) (UC Berkeley Undergrad 2024-2025 -> Listen Labs)  
+[Dee Bao](https://www.linkedin.com/in/dee-bao/) (UC Berkeley Undergrad 2024-2025 -> Stanford Masters)  
+[Ved Mistry](https://www.linkedin.com/in/vedmistry/) (UC Berkeley Undergrad 2024-2025 -> Chicago Trading Company)   
+[Jameson Crate](https://www.linkedin.com/in/jameson-crate/) (UC Berkeley Undergrad 2024-2025  -> Databricks)  
+[Chris Liu](https://www.linkedin.com/in/chris-for-hire/) (UC Berkeley Masters 2022-2024 -> Databricks)  
+[Rithvik Panchapakesan](https://www.linkedin.com/in/rithvik-p/) (UC Berkeley Undergrad 2021-2023 -> Google Deepmind)  
+[Kaushik Shivakumar](https://kmindspark.github.io/) (UC Berkeley Undergrad 2020-2022 -> Google Deepmind)  
+
+
+<br>
+
 Check out my old projects [here]({{ "/old/" | relative_url }})!
