@@ -1,9 +1,11 @@
-I'm a PhD student at UC Berkeley in the [Sky Computing Lab](https://sky.cs.berkeley.edu/projects/), co-advised by [Joe Hellerstein](https://dsf.berkeley.edu/jmh/index.html) and [Natacha Crooks](https://nacrooks.github.io/). My research goal is to **enable the rapid evolution of distributed systems without sacrificing correctness**.
+I'm a PhD candidate at UC Berkeley in the [Sky Computing Lab](https://sky.cs.berkeley.edu/projects/) in the final year of my PhD, co-advised by [Joe Hellerstein](https://dsf.berkeley.edu/jmh/index.html) and [Natacha Crooks](https://nacrooks.github.io/). My research goal is to **enable the rapid evolution of distributed systems without sacrificing correctness**.
 
 I am a member of the [Hydro project](https://hydro.run/), a Rust framework for writing correct and performant distributed systems. This initiative began at Berkeley and is currently gaining adoption within AWS.
 
 In my spare time, I love playing badminton, teaching, and listening to classical music. 
 [Here's a video](https://youtu.be/kvjLjtEr0AQ) of my senior recital at Cornell, where I performed Brahms Ballades Op. 10, Thomas Ades' _Darknesse Visible_, and Beethoven's _Appassionata_ Op. 57, one of my favorite sonatas.
+
+**I'm on the faculty job market for the 2026-2027 cycle!**
 
 
 <br>
@@ -55,6 +57,7 @@ Edward Tremel, Sagar Jha, Weijia Song, **David Chu**, & Ken Birman
 <br>
 
 ## Awards & Service
+2026 Berkeley DSF (Data Systems and Foundation) Seminar Organizer  
 2026 [MongoDB PhD Fellowship](https://www.mongodb.com/company/blog/innovation/announcing-the-2026-mongodb-phd-fellowship-recipients)  
 2025 RDI Frontier Fellows Award  
 2024 SIGMOD ARI Reviewer  
