@@ -57,12 +57,13 @@ Edward Tremel, Sagar Jha, Weijia Song, **David Chu**, & Ken Birman
 <br>
 
 ## Awards & Service
-2026 Berkeley DSF (Data Systems and Foundation) Seminar Organizer  
+2026 Organizer for Berkeley DSF (Data Systems and Foundation) Seminar  
 2026 [MongoDB PhD Fellowship](https://www.mongodb.com/company/blog/innovation/announcing-the-2026-mongodb-phd-fellowship-recipients)  
 2025 RDI Frontier Fellows Award  
 2024 SIGMOD ARI Reviewer  
 2024 [HPTS Best Gong Show Talk](https://youtu.be/CK_pK3Mh3fU)  
 2023-2026 UC Berkeley EECS Evergreen Graduate Research Award  
+2022-2026 Organizer for [Diversifying Access to Research Experience (DARE)](https://dare.cs.berkeley.edu/)  
 2021-2023 UC Berkeley SRC-URO Award  
 2021 ACM SOSP Student Research Competition Winner  
 
