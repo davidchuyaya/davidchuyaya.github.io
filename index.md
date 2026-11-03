@@ -71,6 +71,7 @@ Edward Tremel, Sagar Jha, Weijia Song, **David Chu**, & Ken Birman
 
 ## Students
 
+[Chris Douglas](https://cdouglas.github.io/) (UC Berkeley PhD Mentee 2026)  
 [Vincent Tran](https://www.linkedin.com/in/vincentsamueltran/) (UC Berkeley Undergrad 2025-2026)  
 [Alex Wang](https://alexwang.tech/) (UC Berkeley Undergrad 2025-2026)  
 [Octavio Lomeli](https://www.linkedin.com/in/octaviolomeli/) (UC Berkeley Undergrad 2024-2026 -> AWS)  
